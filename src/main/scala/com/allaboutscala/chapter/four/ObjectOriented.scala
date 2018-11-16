@@ -131,7 +131,7 @@ object ObjectOriented extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   println("Step 1: How to define a case class to represent a Donut object")
-  case class Donut(name: String, price: Double, productCode: Option[Long] = None)
+//  case class Donut(name: String, price: Double, productCode: Option[Long] = None)
   println("\nStep 2: How to create instances or objects for the Donut case class")
   val vanillaDonut: Donut = Donut("Vanilla Donut", 1.50)
   val glazedDonut: Donut = Donut("Glazed Donut", 2.0)
@@ -195,15 +195,137 @@ object ObjectOriented extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   println("\nStep 3: How to define an implicit class to augment or extend the Donut object with a uuid field")
-  object DonutImplicits {
-    implicit class AugmentedDonut(donut: Donut) {
-      def uuid: String = s"${donut.name} - ${donut.productCode.getOrElse(12345)}"
-    }
+//  object DonutImplicits {
+//    implicit class AugmentedDonut(donut: Donut) {
+//      def uuid: String = s"${donut.name} - ${donut.productCode.getOrElse(12345)}"
+//    }
+//  }
+
+  // TODO so you can use either implicit classes, to contain more functionalities over a given object, or implicit functions, as wrappers
+  println("\nStep 4: How to import and use the implicit class AugmentedDonut from Step 3")
+//  import DonutImplicits._
+  println(s"Vanilla donut uuid = ${vanillaDonut.uuid}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // TODO package object
+  println("\nStep 5: How to create instances or objects for the Donut case class from package object")
+  val vanillaDonutP: Donut = Donut("Vanilla", 1.50)
+  println(s"Vanilla donut name = ${vanillaDonutP.name}")
+  println(s"Vanilla donut price = ${vanillaDonutP.price}")
+  println(s"Vanilla donut produceCode = ${vanillaDonutP.productCode}")
+  println(s"Vanilla donut uuid = ${vanillaDonutP.uuid}")
+
+  println("\nStep 6: How to create new JodaTime instance using DateTime alias from package object")
+  val today = new DateTime()
+  println(s"today = $today, datetime class = ${today.getClass}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  println("Step 1: How to define an abstract class called Donut")
+  abstract class DonutAbs(name: String) {
+
+    def printName: Unit
+
   }
+
+//  println("\nStep 2: How to extend abstract class Donut and define a sub-class of Donut called VanillaDonut")
+//  class VanillaDonut(name: String) extends DonutAbs(name) {
+//
+//    override def printName: Unit = println(name)
+//
+//  }
+//
+//  object VanillaDonut {
+//
+//    def apply(name: String): DonutAbs = {
+//      new VanillaDonut(name)
+//    }
+//
+//  }
+//
+//  println("\nStep 3: How to extend abstract class Donut and define another sub-class of Donut called GlazedDonut")
+//  class GlazedDonut(name: String) extends DonutAbs(name) {
+//
+//    override def printName: Unit = println(name)
+//
+//  }
+//
+//  object GlazedDonut {
+//
+//    def apply(name: String): DonutAbs = {
+//      new GlazedDonut(name)
+//    }
+//
+//  }
+//
+//  println("\nStep 4: How to instantiate Donut objects")
+//  val vanillaDonutAbs: DonutAbs = VanillaDonut("Vanilla Donut")
+//  vanillaDonutAbs.printName
+//
+//  val glazedDonutAbs: DonutAbs = GlazedDonut("Glazed Donut")
+//  glazedDonutAbs.printName
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  println("\nStep 2: How to extend abstract class Donut and define a case class called VanillaDonut")
+  case class VanillaDonut(name: String) extends DonutAbs(name) {
+
+    override def printName: Unit = println(name)
+
+  }
+
+  println("\nStep 3: How to extend abstract class Donut and define another case class called GlazedDonut")
+  case class GlazedDonut(name: String) extends DonutAbs(name) {
+
+    override def printName: Unit = println(name)
+
+  }
+
+  println("\nStep 4: How to instantiate Donut objects")
+  val vanillaDonutAbs: VanillaDonut = VanillaDonut("Vanilla Donut")
+  vanillaDonutAbs.printName
+
+  val glazedDonutAbs: GlazedDonut = GlazedDonut("Glazed Donut")
+  glazedDonutAbs.printName
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  println("\nStep 5: How to define a ShoppingCart type class which expects Donut types")
+  class ShoppingCart[D <: DonutAbs](donuts: Seq[D]) {
+
+    def printCartItems: Unit = donuts.foreach(_.printName)
+
+  }
+
+  println("\nStep 6: How to create instances or objects of ShoppingCart class")
+  val shoppingCartAbs: ShoppingCart[DonutAbs] = new ShoppingCart(Seq(vanillaDonutAbs, glazedDonutAbs))
+  shoppingCartAbs.printCartItems
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  println(s"\nStep 7: How to enable covariance on ShoppingCart")
+  class ShoppingCart2[+D <: DonutAbs](donuts: Seq[D]) {
+
+    def printCartItems: Unit = donuts.foreach(_.printName)
+
+  }
+
+  val shoppingCart2: ShoppingCart2[DonutAbs] = new ShoppingCart2[VanillaDonut](Seq(vanillaDonutAbs))
+  shoppingCart2.printCartItems
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  println(s"\nStep 7: How to enable contra-variance on ShoppingCart")
+  class ShoppingCart3[-D <: DonutAbs](donuts: Seq[D]) {
+
+    def printCartItems: Unit = donuts.foreach(_.printName)
+
+  }
+
+  val shoppingCart3: ShoppingCart3[VanillaDonut] = new ShoppingCart3[DonutAbs](Seq(glazedDonutAbs))
+  shoppingCart3.printCartItems
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
 }
-
-
-

@@ -62,8 +62,7 @@ object Fundamentals extends App {
     println(s"Number of donuts to buy = $numberOfDonuts")
   }
 
-  // TODO
-  // no new before the List object, because it's a companion object
+  // TODO no new before the List object, because it's a companion object
   println("\nStep 3: Filter values using if conditions in for loop")
   val donutIngredients = List("flour", "sugar", "egg yolks", "syrup", "flavouring")
   for(ingredient <- donutIngredients if ingredient == "sugar"){
@@ -97,9 +96,7 @@ object Fundamentals extends App {
   val alphabetRangeFromAToZ = 'a' to 'z'
   println(s"Range of alphabets from a to z = $alphabetRangeFromAToZ")
 
-  // TODO
-  // skip the () if the function has no side effect
-  // fp concept
+  // TODO skip the () if the function has no side effect fp concept
   println("\nStep 6: Storing our ranges into collections")
   val listFrom1To5 = (1 to 5).toList
   println(s"Range to list = ${listFrom1To5.mkString(" ")}")
@@ -117,9 +114,7 @@ object Fundamentals extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
-  // TODO
-  // while is not preferred in pure functional programming
-  // also, avoid var
+  // TODO while is not preferred in pure functional programming, also avoid var
   println("Step 1: How to use while loop in Scala")
   var numberOfDonutsToBake = 10
   while (numberOfDonutsToBake > 0) {
