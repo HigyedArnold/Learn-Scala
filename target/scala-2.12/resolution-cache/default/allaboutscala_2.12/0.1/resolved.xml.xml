@@ -4,7 +4,7 @@
 		module="allaboutscala_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181119090638"
+		publication="20181119120422"
 	>
 		<description>
 		allaboutscala
@@ -37,5 +37,7 @@
 		<dependency org="joda-time" name="joda-time" rev="2.9.3" conf="compile->default(compile)"/>
 		<dependency org="org.joda" name="joda-convert" rev="1.8" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.12" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

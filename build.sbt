@@ -8,7 +8,11 @@ val scalaLogging = "com.typesafe.scala-logging" %% "scala-logging" % "3.8.0"
 val logback = "ch.qos.logback" %  "logback-classic" % "1.1.7"
 val jodaTime = "joda-time" % "joda-time" % "2.9.3"
 val jodaConvert = "org.joda" % "joda-convert" % "1.8"
+
 val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1"
+
+val akkaActor = "com.typesafe.akka" %% "akka-actor" % "2.5.12"
+val akkaTestkit = "com.typesafe.akka" %% "akka-testkit" % "2.5.12"
 
 
 libraryDependencies ++= Seq (
@@ -16,5 +20,7 @@ libraryDependencies ++= Seq (
   logback,
   jodaTime,
   jodaConvert,
-  scalaTest
+  scalaTest,
+  akkaActor,
+  akkaTestkit
 )
