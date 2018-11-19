@@ -45,6 +45,21 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.1
+[debug] 	found org.scalatest#scalatest_2.12;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.25 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.25
@@ -56,6 +71,17 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.7
@@ -89,6 +115,17 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.8 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.8
@@ -119,6 +156,17 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.1
+[debug] 	found org.scalactic#scalactic_2.12;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [runtime]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [compile]
@@ -154,6 +202,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
@@ -162,6 +222,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
@@ -187,6 +255,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->compile]
@@ -211,6 +287,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->compile]
@@ -243,6 +327,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
@@ -251,6 +347,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
@@ -276,6 +380,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->compile]
@@ -300,6 +412,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [test]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [runtime]
@@ -336,6 +456,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
@@ -344,6 +476,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
@@ -369,6 +509,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->compile]
@@ -393,6 +541,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->compile]
@@ -425,6 +581,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
@@ -433,6 +601,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
@@ -458,6 +634,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->compile]
@@ -482,6 +666,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test->compile]
@@ -514,6 +706,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
@@ -522,6 +726,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile]
@@ -547,6 +759,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test->compile]
@@ -571,6 +791,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -610,6 +838,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
@@ -618,6 +858,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
@@ -643,6 +891,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->compile]
@@ -667,6 +923,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [optional]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [provided]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [compile-internal->default]
@@ -701,6 +965,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
@@ -709,6 +985,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile-internal->compile]
@@ -734,6 +1018,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile-internal->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile-internal->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile-internal->compile]
@@ -758,6 +1050,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [runtime-internal]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [runtime]
@@ -794,6 +1094,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
@@ -802,6 +1114,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
@@ -827,6 +1147,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->compile]
@@ -851,6 +1179,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->compile]
@@ -883,6 +1219,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
@@ -891,6 +1239,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
@@ -916,6 +1272,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->compile]
@@ -940,6 +1304,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [optional]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime-internal->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime-internal->runtime]
@@ -973,6 +1345,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
@@ -981,6 +1365,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime-internal->compile]
@@ -1006,6 +1398,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime-internal->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime-internal->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime-internal->compile]
@@ -1030,6 +1430,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [test-internal]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [test]
@@ -1067,6 +1475,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
@@ -1075,6 +1495,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
@@ -1100,6 +1528,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [compile->compile]
@@ -1124,6 +1560,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [compile->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [compile->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [runtime->compile]
@@ -1156,6 +1600,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
@@ -1164,6 +1620,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
@@ -1189,6 +1653,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [runtime->compile]
@@ -1213,6 +1685,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [runtime->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [runtime->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test->compile]
@@ -1245,6 +1725,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
@@ -1253,6 +1745,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile]
@@ -1278,6 +1778,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test->compile]
@@ -1302,6 +1810,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test->master]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [optional]
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [provided]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->joda-time#joda-time;2.9.3 [test-internal->default]
@@ -1336,6 +1852,18 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->ch.qos.logback#logback-classic;1.1.7 [test-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->default]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalatest#scalatest_2.12;3.0.1 [test-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
@@ -1344,6 +1872,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->compile]
@@ -1369,6 +1905,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile(*)]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test-internal->default]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test-internal->runtime]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->org.joda#joda-convert;1.8 [test-internal->compile]
@@ -1393,6 +1937,14 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test-internal->compile]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test-internal->master]
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.8.0 [test-internal->master]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#allaboutscala$sources;0.1->org.scalactic#scalactic_2.12;3.0.1 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#allaboutscala$sources;0.1 [plugin]
 [debug] resolving dependencies for configuration 'pom'
@@ -1454,194 +2006,22 @@
 [debug] == resolving dependencies default#allaboutscala$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8!joda-convert.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.3!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.8.0!scala-logging_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] no default ivy user dir defined: set to /home/users/arnold/.ivy2
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] no default cache defined: set to /home/users/arnold/.ivy2/cache
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (32ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (29ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (31ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] settings loaded (35ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	public [ibiblio]
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (29ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] including url: jar:file:/home/users/arnold/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (37ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (32ms)
-[debug] settings loaded (36ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	main [chain] [shared, public]
-[debug] 	public [ibiblio]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (34ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] settings loaded (31ms)
-[debug] 	shared [file]
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default [chain] [local, main]
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	main [chain] [shared, public]
-[debug] 	public [ibiblio]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (35ms)
-[debug] 	default cache: /home/users/arnold/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 352ms :: artifacts dl 51ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.3!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8!joda-convert.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.8.0!scala-logging_2.12.jar(src)
+[debug] :: resolution report :: resolve 116ms :: artifacts dl 7ms
 [debug] 	report for default#allaboutscala$sources;0.1 compile produced in /home/users/arnold/IdeaProjects/allaboutscala/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-compile.xml
 [debug] 	report for default#allaboutscala$sources;0.1 runtime produced in /home/users/arnold/IdeaProjects/allaboutscala/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-runtime.xml
 [debug] 	report for default#allaboutscala$sources;0.1 test produced in /home/users/arnold/IdeaProjects/allaboutscala/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-test.xml
@@ -1653,4 +2033,4 @@
 [debug] 	report for default#allaboutscala$sources;0.1 plugin produced in /home/users/arnold/IdeaProjects/allaboutscala/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-plugin.xml
 [debug] 	report for default#allaboutscala$sources;0.1 pom produced in /home/users/arnold/IdeaProjects/allaboutscala/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-pom.xml
 [debug] 	report for default#allaboutscala$sources;0.1 scala-tool produced in /home/users/arnold/IdeaProjects/allaboutscala/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-scala-tool.xml
-[debug] 	resolve done (352ms resolve - 51ms download)
+[debug] 	resolve done (116ms resolve - 7ms download)
