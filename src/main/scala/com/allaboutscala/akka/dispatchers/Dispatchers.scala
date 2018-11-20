@@ -97,6 +97,13 @@ object Dispatchers extends App {
     case Failure(e)     => println("Failed to terminate actor system")
   }
 
+  val isTerminated1 = system1.terminate()
+
+  isTerminated1.onComplete {
+    case Success(result) => println("Successfully terminated actor system")
+    case Failure(e)     => println("Failed to terminate actor system")
+  }
+
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
 }

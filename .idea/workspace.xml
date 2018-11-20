@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7053174d-b40a-4cd9-a784-42a69da94288" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/allaboutscala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/allaboutscala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/dispatchers/Dispatchers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/dispatchers/Dispatchers.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockWorkerActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockWorkerActor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,14 +60,14 @@
           <entry key="conf" value="1" />
           <entry key="properties" value="2" />
           <entry key="sbt" value="4" />
-          <entry key="scala" value="121" />
+          <entry key="scala" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
           <entry key="Properties" value="2" />
-          <entry key="Scala" value="121" />
+          <entry key="Scala" value="122" />
           <entry key="sbt" value="4" />
         </counts>
       </usages-collector>
@@ -81,14 +76,14 @@
           <entry key="conf" value="4" />
           <entry key="java" value="2" />
           <entry key="sbt" value="177" />
-          <entry key="scala" value="3096" />
+          <entry key="scala" value="3214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HOCON" value="4" />
           <entry key="JAVA" value="2" />
-          <entry key="Scala" value="3096" />
+          <entry key="Scala" value="3214" />
           <entry key="sbt" value="177" />
         </counts>
       </usages-collector>
@@ -102,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/actors/AkkaActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3405">
-              <caret line="227" column="120" lean-forward="true" selection-start-line="218" selection-start-column="2" selection-end-line="227" selection-end-column="120" />
+            <state relative-caret-position="272">
+              <caret line="220" column="27" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="27" />
               <folding>
                 <element signature="e#39#95#0" expanded="true" />
               </folding>
@@ -114,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="61">
               <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
@@ -123,9 +118,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/dispatchers/Dispatchers.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="362">
+              <caret line="99" selection-start-line="99" selection-end-line="104" selection-end-column="3" />
               <folding>
+                <element signature="e#44#80#0" expanded="true" />
                 <element signature="e#2181#2248#0" expanded="true" />
               </folding>
             </state>
@@ -144,8 +140,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="466">
+              <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
+              <folding>
+                <element signature="e#36#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Tricks.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="89" column="39" selection-start-line="89" selection-end-line="90" />
+              <folding>
+                <element signature="e#33#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +188,7 @@
       <find>enum</find>
       <find>ixed-thread-pool</find>
       <find>fixed-thread-pool</find>
+      <find>system1</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -231,8 +243,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/actors/AkkaActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/dispatchers/Dispatchers.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala" />
       </list>
     </option>
   </component>
@@ -411,7 +423,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///home/users/arnold/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/App.scala" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542640630075" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542700354854" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -440,7 +452,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dispatchers">
+  <component name="RunManager" selected="Application.FSM">
     <configuration name="AkkaActor" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.allaboutscala.akka.actors.AkkaActor" />
       <module name="allaboutscala" />
@@ -467,12 +479,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOriented" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.scala.ObjectOriented" />
+    <configuration name="FSM" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.akka.fsm.FSM" />
       <module name="allaboutscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.scala.*" />
+          <option name="PATTERN" value="com.allaboutscala.akka.fsm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -512,19 +524,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ObjectOriented" />
       <item itemvalue="ScalaTest.Tests.Example of testing private method should be valid (1)" />
       <item itemvalue="Application.AkkaActor" />
       <item itemvalue="Application.Routers" />
       <item itemvalue="Application.Dispatchers" />
+      <item itemvalue="Application.FSM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FSM" />
         <item itemvalue="Application.Dispatchers" />
         <item itemvalue="Application.Routers" />
         <item itemvalue="Application.AkkaActor" />
         <item itemvalue="ScalaTest.Tests.Example of testing private method should be valid (1)" />
-        <item itemvalue="Application.ObjectOriented" />
       </list>
     </recent_temporary>
   </component>
@@ -615,8 +627,8 @@
     <frame x="1920" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49582836" visible="true" weight="0.18943436" />
-      <window_info id="Structure" order="1" sideWeight="0.5041716" side_tool="true" visible="true" weight="0.18943436" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.18943436" />
+      <window_info id="Structure" order="1" sideWeight="0.5051903" side_tool="true" visible="true" weight="0.18943436" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -626,7 +638,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991612" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3258637" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21661998" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46031746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991612" />
@@ -896,16 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Tricks.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="89" column="9" selection-start-line="89" selection-end-line="90" />
-          <folding>
-            <element signature="e#33#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/TraitsInjection.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
@@ -981,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/actors/AkkaActor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3405">
-          <caret line="227" column="120" lean-forward="true" selection-start-line="218" selection-start-column="2" selection-end-line="227" selection-end-column="120" />
+        <state relative-caret-position="272">
+          <caret line="220" column="27" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="27" />
           <folding>
             <element signature="e#39#95#0" expanded="true" />
           </folding>
@@ -991,16 +993,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="61">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/dispatchers/Dispatchers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="362">
+          <caret line="99" selection-start-line="99" selection-end-line="104" selection-end-column="3" />
           <folding>
+            <element signature="e#44#80#0" expanded="true" />
             <element signature="e#2181#2248#0" expanded="true" />
           </folding>
         </state>
@@ -1013,10 +1016,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Tricks.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="89" column="39" selection-start-line="89" selection-end-line="90" />
+          <folding>
+            <element signature="e#33#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="466">
+          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
+          <folding>
+            <element signature="e#36#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
