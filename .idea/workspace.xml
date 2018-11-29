@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40658a42-c5cc-4ed0-824f-61b6901cd3af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalaTest/Stack.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/ExampleSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/SharedTestExampleSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackBehaviors.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/TestStyles.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/DbServer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/FixtureContextObjects.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/GetFixtureMethods.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/LoanFixtureMethods.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/MixingBeforeAndAfter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/OverridingWithFixture.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/StackingTraits.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/allaboutscala-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/allaboutscala-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/allaboutscala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/allaboutscala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+    <list default="true" id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/AddSpec.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/AsyncWithFixture.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/StackingAsyncWithFixture.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$da44f0d320956db6b0eb$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$da44f0d320956db6b0eb.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$da44f0d320956db6b0eb.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/allaboutscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/allaboutscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/allaboutscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/allaboutscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-allaboutscala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-allaboutscala-build-compile-internal.xml" afterDir="false" />
@@ -43,7 +25,11 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-allaboutscala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-allaboutscala-build-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ImmutableCollection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ImmutableCollection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/MutableCollection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/MutableCollection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/allaboutscala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/allaboutscala$sources/0.1/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/allaboutscala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/allaboutscala$sources/0.1/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-compile-internal.xml" afterDir="false" />
@@ -57,7 +43,6 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-scala-tool.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-allaboutscala$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,23 +59,60 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="allaboutscala" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/MutableCollection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            <state relative-caret-position="562">
+              <caret line="590" column="41" selection-start-line="590" selection-start-column="41" selection-end-line="590" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>: =&gt;</find>
+      <find>_*</find>
+      <find>match</find>
+      <find>@</find>
+      <find>future</find>
+      <find>case</find>
+      <find>case class</find>
+      <find>enum</find>
+      <find>import</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,43 +120,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalaTest/Stack.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackNehaviors.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/SharedTestExampleSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackBehaviors.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/SetSuite.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/SetSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/ExampleSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/GetFixtureMethods.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/FixtureContextObjects.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/DbServer.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/LoanFixtureMethods.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/OverridingWithFixture.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/MIxingBeforeAndAfter.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/MixingBeforeAndAfter.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/Buffer.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/StackingTraits.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ImmutableCollection.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/MutableCollection.scala" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2164" />
-    <option name="y" value="122" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +160,11 @@
             <path>
               <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -167,6 +187,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
@@ -202,12 +231,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542963604593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543499150153" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,104 +252,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.StackingTraits.Testing should be easy">
-    <configuration name="LoanFixtureMethods.Testing should be productive" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="Application.MutableCollection">
+    <configuration name="ImmutableCollection" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.scala.ImmutableCollection" />
       <module name="allaboutscala" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.LoanFixtureMethods" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.LoanFixtureMethods" />
-      <setting name="testName" value="Testing should be productive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allaboutscala.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixingBeforeAndAfter.Testing should be easy&#10;Testing should be fun" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="MutableCollection" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.scala.MutableCollection" />
       <module name="allaboutscala" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.MixingBeforeAndAfter" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.MixingBeforeAndAfter" />
-      <setting name="testName" value="Testing should be easy&#10;Testing should be fun" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OverridingWithFixture.Testing should be easy&#10;Testing should be fun" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="allaboutscala" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.OverridingWithFixture" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.OverridingWithFixture" />
-      <setting name="testName" value="Testing should be easy&#10;Testing should be fun" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OverridingWithFixture.This test should succeed&#10;This test should fail" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="allaboutscala" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.OverridingWithFixture" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.OverridingWithFixture" />
-      <setting name="testName" value="This test should succeed&#10;This test should fail" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackingTraits.Testing should be easy" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="allaboutscala" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.StackingTraits" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.allaboutscala.scala.fixtures.StackingTraits" />
-      <setting name="testName" value="Testing should be easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allaboutscala.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.StackingTraits.Testing should be easy" />
-        <item itemvalue="ScalaTest.MixingBeforeAndAfter.Testing should be easy&#10;Testing should be fun" />
-        <item itemvalue="ScalaTest.OverridingWithFixture.Testing should be easy&#10;Testing should be fun" />
-        <item itemvalue="ScalaTest.LoanFixtureMethods.Testing should be productive" />
-        <item itemvalue="ScalaTest.OverridingWithFixture.This test should succeed&#10;This test should fail" />
+        <item itemvalue="Application.MutableCollection" />
+        <item itemvalue="Application.ImmutableCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +313,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3084826323000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3472221084" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2125951362" />
       </map>
@@ -359,255 +324,191 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="40658a42-c5cc-4ed0-824f-61b6901cd3af" name="Default Changelist" comment="" />
-      <created>1542960793850</created>
+      <changelist id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="" />
+      <created>1542979449572</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542960793850</updated>
+      <updated>1542979449572</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SetSpecFree_A_Set_when_empty_should_have_size_0_A_Set_when_empty_should_produce_NoSuchElementException_when_head_is_invoked - 2018.11.23 at 10h 40m 29s.xml">
-      <configuration name="SetSpecFree.A Set when empty should have size 0&#10;A Set when empty should produce NoSuchElementException when head is invoked" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StackSpec_A_Stack_should_pop_values_in_last-in-first-out_order - 2018.11.23 at 10h 42m 21s.xml">
-      <configuration name="StackSpec.A Stack should pop values in last-in-first-out order" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleSpec_The_Scala_language_must_subtract_correctly - 2018.11.23 at 10h 43m 28s.xml">
-      <configuration name="ExampleSpec.The Scala language must subtract correctly" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="GetFixtureMethods_Testing_should_be_easy_Testing_should_be_fun - 2018.11.23 at 10h 46m 32s.xml">
-      <configuration name="GetFixtureMethods.Testing should be easy&#10;Testing should be fun" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="FixtureContextObjects_Testing_should_be_productive_Test_code_should_be_readable_Test_code_should_be_clear_and_concise - 2018.11.23 at 10h 47m 29s.xml">
-      <configuration name="FixtureContextObjects.Testing should be productive&#10;Test code should be readable&#10;Test code should be clear and concise" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OverridingWithFixture_This_test_should_succeed_This_test_should_fail - 2018.11.23 at 10h 48m 29s.xml">
-      <configuration name="OverridingWithFixture.This test should succeed&#10;This test should fail" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LoanFixtureMethods_Testing_should_be_productive - 2018.11.23 at 10h 50m 30s.xml">
-      <configuration name="LoanFixtureMethods.Testing should be productive" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OverridingWithFixture_Testing_should_be_easy_Testing_should_be_fun - 2018.11.23 at 10h 51m 10s.xml">
-      <configuration name="OverridingWithFixture.Testing should be easy&#10;Testing should be fun" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="MixingBeforeAndAfter_Testing_should_be_easy_Testing_should_be_fun - 2018.11.23 at 10h 51m 59s.xml">
-      <configuration name="MixingBeforeAndAfter.Testing should be easy&#10;Testing should be fun" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StackingTraits_Testing_should_be_easy - 2018.11.23 at 10h 56m 58s.xml">
-      <configuration name="StackingTraits.Testing should be easy" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="0" width="1928" height="1204" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Learn" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17929563" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32929105" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.26679105" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32929105" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="sbt" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32929105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3407336" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32929105" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="sbt" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" side_tool="true" weight="0.32977587" />
+      <window_info anchor="right" id="Ant Build" order="9" side_tool="true" weight="0.2497332" />
     </layout>
   </component>
+  <component name="WorksheetDefaultProjectSettings">
+    <option name="compilerProfileName" value="Default" />
+    <option name="moduleName" value="allaboutscala" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Functions.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ManualTest.sc" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="271" column="5" lean-forward="true" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.1-sources.jar!/org/scalatest/FlatSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Fundamentals.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="1684" column="6" selection-start-line="1684" selection-start-column="6" selection-end-line="1684" selection-end-column="6" />
+        <state relative-caret-position="879">
+          <caret line="264" column="1" lean-forward="true" selection-start-line="264" selection-start-column="1" selection-end-line="264" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/SetSuite.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/scriptFile.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/SharedTestExampleSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#33#73#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="67" selection-end-column="120" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/TestStyles.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-          <folding>
-            <element signature="e#1402#1424#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/ExampleSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ImmutableCollection.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#33#62#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/GetFixtureMethods.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/MutableCollection.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#42#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/FixtureContextObjects.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#42#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/LoanFixtureMethods.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#42#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/OverridingWithFixture.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="e#42#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/MixingBeforeAndAfter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#42#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/DbServer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/Buffer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/fixtures/StackingTraits.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="e#43#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/Tests.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#33#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/allaboutscala/scala/StackBehaviors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#33#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalaTest/Stack.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        <state relative-caret-position="562">
+          <caret line="590" column="41" selection-start-line="590" selection-start-column="41" selection-end-line="590" selection-end-column="41" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>allaboutscala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sbt: ch.qos.logback:logback-classic:1.1.7:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
