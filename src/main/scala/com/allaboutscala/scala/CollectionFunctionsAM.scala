@@ -4,7 +4,7 @@ package com.allaboutscala.scala
 /**
   * Created by ArnoldHigyed on 16/11/2018
   */
-object CollectionFunctions extends App {
+object CollectionFunctionsAM extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
@@ -204,51 +204,210 @@ object CollectionFunctions extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // FOLDLEFT: def foldLeft[B](z: B)(op: (B, A) ⇒ B): B
 
+  println("\nStep 2: How to sum all the donut prices using foldLeft function")
+  val sum1 = prices.foldLeft(0.0)(_ + _)
+  println(s"Sum = $sum1")
 
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
+  println("\nStep 4: How to create a String of all donuts using foldLeft function")
+  println(s"All donuts = ${donuts.foldLeft("")((a, b) => a + b + " Donut ")}")
 
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
+  println("\nStep 6: How to create a String of all donuts using value function from Step 5 and foldLeft function")
+  println(s"All donuts = ${donuts.foldLeft("")(concatDonuts)}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // FOLDRIGHT: def foldRight[B](z: B)(op: (A, B) ⇒ B): B
 
+  println("\nStep 2: How to sum all the donut prices using foldRight function")
+  val sum2 = prices.foldRight(0.0)(_ + _)
+  println(s"Sum = $sum2")
 
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
+  println("\nStep 4: How to create a String of all donuts using foldRight function")
+  println(s"All donuts = ${donuts.foldRight("")((a, b) => a + " Donut " + b)}")
 
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
+  println("\nStep 6: How to create a String of all donuts using value function from Step 5 and foldRight function")
+  println(s"All donuts = ${donuts.foldRight("")(concatDonuts)}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // FOREACH: def foreach(f: (A) ⇒ Unit): Unit
 
+  println("\nStep 2: How to loop through all the elements in the sequence using the foreach function")
+  donuts.foreach(println(_))
+
+  println("\nStep 3: How to loop through and access all the elements in the sequence using the foreach function")
+  donuts.foreach(donutName => println(s"donutName = $donutName"))
+
+  println("\nStep 4: How to declare a value function to format a donut names into upper case format")
+  val uppercase: (String) => String = (s) => {
+    val upper = s.toUpperCase
+    println(upper)
+    upper
+  }
+  println(s"Value function formatting donut names to uppercase = $uppercase")
+
+  println("\nStep 5: How to format all donuts to uppercase using value function from Step 4")
+  donuts.foreach(uppercase)
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // GROUPBY: groupBy[K](f: (A) ⇒ K): immutable.Map[K, Repr]
 
+  println("\nStep 2: How to group elements in a sequence using the groupBy function")
+  val donutsGroup: Map[Char, Seq[String]] = donuts.groupBy(_.charAt(0))
+  println(s"Group elements in the donut sequence by the first letter of the donut name = $donutsGroup")
+
+  println("\nStep 3: How to create a case class to represent Donut objects")
+  case class Donut(name: String, price: Double)
+
+  println("\nStep 4: How to create a Sequence of type Donut")
+  val donutsD: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
+  println(s"Elements of donuts2 = $donutsD")
+
+  println(s"\nStep 5: How to group case classes donut objects by the name property")
+  val donutsGroup2: Map[String, Seq[Donut]] = donutsD.groupBy(_.name)
+  println(s"Group element in the sequence of type Donut grouped by the donut name = $donutsGroup2")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // HEAD: def head: A
 
+  println("\nStep 2: How to access the first element of the donut sequence")
+  println(s"First element of donut sequence = ${donuts(0)}")
+
+  println("\nStep 3: How to access the first element of the donut sequence using the head method")
+  println(s"First element of donut sequence using head method = ${donuts.head}")
+
+  println("\nStep 4: How to create an empty sequence")
+  val donutsE: Seq[String] = Seq.empty[String]
+  println(s"Elements of donuts2 = $donutsE")
+
+  println("\nStep 5: How to access the first element of the donut sequence using the headOption function")
+  println(s"First element of empty sequence = ${donutsE.headOption.getOrElse("No donut was found!")}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // ISEMPTY: abstract def isEmpty: Boolean
 
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // INTERSECT: abstract def isEmpty: Boolean
+
+  println("Step 1: How to initialize a Set of donuts")
+  val donutsI1: Set[String] = Set("Plain Donut", "Strawberry Donut", "Glazed Donut")
+  println(s"Elements of donuts1 = $donutsI1")
+
+  println("\nStep 2: How to initialize another Set of donuts")
+  val donutsI2: Set[String] = Set("Plain Donut", "Chocolate Donut", "Vanilla Donut")
+  println(s"Elements of donuts2 = $donutsI2")
+
+  println("\nStep 3: How to find the common elements between two Sets using intersect function")
+  println(s"Common elements between donuts1 and donuts2 = ${donutsI1 intersect donutsI2}") // intersect = &
+  println(s"Common elements between donuts2 and donuts1 = ${donutsI2 intersect donutsI1}") // intersect = &
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // LAST: def last: A
+
+  println("\nStep 2: How to access the last element of the donut sequence by index")
+  println(s"Last element of donut sequence = ${donuts(donuts.size - 1)}")
+
+  println("\nStep 3: How to access the last element of the donut sequence by using the last function")
+  println(s"Last element of donut sequence = ${donuts.last}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // MAP: def map[B](f: (A) ⇒ B): Traversable[B]
+
+  println("\nStep 2: How to append the word Donut to each element using the map function")
+  val donutsM: Seq[String] = donuts1.map(_ + " Donut")
+  println(s"Elements of donuts2 = $donutsM")
+
+  println("\nStep 3: How to create a donut sequence with one None element")
+  val donuts3: Seq[AnyRef] = Seq("Plain", "Strawberry", None)
+  donuts3.foreach(println(_))
+
+  println("\nStep 4: How to filter out the None element using map function")
+  val donuts4: Seq[String] = donuts3.map {
+    case donut: String => donut + " Donut"
+    case None => "Unknown Donut"
+  }
+  println(s"Elements of donuts4 = $donuts4")
+
+  println("\nStep 5: How to define couple of functions which returns an Option of type String")
+  def favoriteDonut: Option[String] = Some("Glazed Donut")
+
+  def leastFavoriteDonut: Option[String] = None
+
+  println("\nStep 6: How to use map function to filter out None values")
+  favoriteDonut.map(donut => println(s"Favorite donut = $donut"))
+  leastFavoriteDonut.map(donut=> println(s"Least favorite donut = $donut"))
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // MAX: def max: A
+
+  println("\nStep 2: How to find the maximum element in the sequence using the max function")
+  println(s"Max element in the donuts sequence = ${donuts.max}")
+
+  println("\nStep 4: How to find the maximum element in the sequence using the max function")
+  println(s"Max element in the donut prices sequence = ${prices.max}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // MAXBY: def maxBy[B](f: (A) ⇒ B): A
+
+  println("\nStep 3: How to find the maximum element in a sequence of case classes objects using the maxBy function")
+  println(s"Maximum element in sequence of case class of type Donut, ordered by price = ${donutsD.maxBy(donut => donut.price)}")
+
+  println("\nStep 4: How to declare a value predicate function for maxBy function")
+  val donutsMaxBy: (Donut) => Double = (donut) => donut.price
+  println(s"Value function donutMaxBy = $donutsMaxBy")
+
+  println("\nStep 5: How to find the maximum element using maxBy function and pass through the predicate function from Step 4")
+  println(s"Maximum element in sequence using function from Step 3 = ${donutsD.maxBy(donutsMaxBy)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // MIN: def min: A
+
+  println("\nStep 2: How to find the minimum element in the sequence using the min function")
+  println(s"Min element in the donuts sequence = ${donuts.min}")
+
+  println("\nStep 4: How to find the minimum element in the sequence using the min function")
+  println(s"Min element in the donut prices sequence = ${prices.min}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // MINBY: def minBy[B](f: (A) ⇒ B): A
+
+  println("\nStep 3: How to find the minimum element in a sequence of case classes using the minBy function")
+  println(s"Minimum element in sequence of case class of type Donut, ordered by price = ${donutsD.minBy(donut => donut.price)}")
+
+  println("\nStep 4: How to declare a value predicate function for minBy function")
+  val donutsMinBy: (Donut) => Double = (donut) => donut.price
+  println(s"Value function donutMinBy = $donutsMinBy")
+
+  println("\nStep 5: How to find the minimum element using minBy function and passing through the predicate function from Step 4")
+  println(s"Minimum element in sequence using function from Step 3 = ${donutsD.minBy(donutsMinBy)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // MKSTRING: def mkString: String
+  //
+  //           def mkString(sep: String): String
+  //
+  //           def mkString(start: String, sep: String, end: String): String
+
+  println("\nStep 2: How to concatenate the elements of a sequence into a String using mkString function")
+  val donutsAsString: String = donuts.mkString(" and ")
+  println(s"Donuts elements using mkString function = $donutsAsString")
+
+  println("\nStep 3: How to concatenate the elements of a sequence into a String using mkString and specifying prefix and suffix")
+  val donutsWithPrefixAndSuffix: String = donuts.mkString("My favorite donuts namely ", " and ", " are very tasty!")
+  println(s"$donutsWithPrefixAndSuffix")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
