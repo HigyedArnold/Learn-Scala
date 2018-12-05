@@ -3,6 +3,9 @@ package com.allaboutscala.scala.fixtures
 import org.scalatest._
 import collection.mutable.ListBuffer
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 trait Builder extends BeforeAndAfterEach { this: Suite =>
 
   val builder = new StringBuilder

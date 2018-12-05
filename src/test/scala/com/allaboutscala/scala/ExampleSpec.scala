@@ -5,6 +5,9 @@ import org.scalatest.tagobjects.Slow
 
 import org.scalatest.Tag
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 object DbTest extends Tag("com.mycompany.tags.DbTest")
 
 class ExampleSpec extends FlatSpec {

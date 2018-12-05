@@ -3,6 +3,9 @@ package com.allaboutscala.scala
 import com.allaboutscala.scalaTest.Stack
 import org.scalatest.FlatSpec
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 trait StackBehaviors { this: FlatSpec =>
 
   def nonEmptyStack(newStack: => Stack[Int], lastItemAdded: Int) {

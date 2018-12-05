@@ -2,6 +2,9 @@ package com.allaboutscala.scalaTest
 
 import scala.collection.mutable.ListBuffer
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class Stack[T] {
 
   val MAX = 10

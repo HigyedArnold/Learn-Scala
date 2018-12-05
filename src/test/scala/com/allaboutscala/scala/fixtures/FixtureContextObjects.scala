@@ -3,6 +3,9 @@ package com.allaboutscala.scala.fixtures
 import collection.mutable.ListBuffer
 import org.scalatest.FlatSpec
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class FixtureContextObjects extends FlatSpec {
 
   trait Builder {

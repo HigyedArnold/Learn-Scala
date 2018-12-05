@@ -2,6 +2,9 @@ package com.allaboutscala.scala.fixtures
 
 import java.util.concurrent.ConcurrentHashMap
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 object DbServer { // Simulating a database server
 
   type Db = StringBuffer

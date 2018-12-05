@@ -3,6 +3,9 @@ package com.allaboutscala.scala
 import org.scalatest.AsyncFlatSpec
 import scala.concurrent.Future
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class AddSpec extends AsyncFlatSpec {
 
   def addSoon(addends: Int*): Future[Int] = Future { addends.sum }

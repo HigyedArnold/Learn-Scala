@@ -3,6 +3,9 @@ package com.allaboutscala.scala.fixtures
 import org.scalatest.fixture
 import java.io._
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class OverridingWithFixture extends fixture.FlatSpec {
 
   case class FixtureParam(file: File, writer: FileWriter)

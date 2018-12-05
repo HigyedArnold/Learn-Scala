@@ -4,6 +4,9 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global //We need an executionContext to run futures
 import scala.concurrent.duration._ //This provides the "1 second" syntax
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 object FutureChain extends App {
 
   class CoffeeBeans()

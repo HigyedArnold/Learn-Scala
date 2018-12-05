@@ -5,6 +5,9 @@ import DbServer._
 import java.util.UUID.randomUUID
 import java.io._
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class LoanFixtureMethods extends FlatSpec {
 
   def withDatabase(testCode: Db => Any) {

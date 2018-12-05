@@ -2,6 +2,9 @@ package com.allaboutscala.scala
 
 import org.scalatest.FunSuite
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class SetSuite extends FunSuite {
 
   test("An empty Set should have size 0") {

@@ -3,6 +3,9 @@ package com.allaboutscala.scala
 import com.allaboutscala.scalaTest.Stack
 import org.scalatest.FlatSpec
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class SharedTestExampleSpec extends FlatSpec with StackBehaviors {
 
   // Stack fixture creation methods

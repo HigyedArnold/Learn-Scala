@@ -4,6 +4,9 @@ import java.io.File
 import org.scalatest._
 import scala.concurrent.Future
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 class AsyncWithFixture extends AsyncFlatSpec {
 
  override def withFixture(test: NoArgAsyncTest) = {

@@ -4,6 +4,9 @@ import org.scalatest._
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext
 
+/**
+  * Created by ArnoldHigyed on 5/12/2018
+  */
 // Defining actor messages
 sealed abstract class StringOp
 case object Clear extends StringOp

@@ -2,7 +2,7 @@ package com.allaboutscala.scala
 
 
 /**
-  * Created by ArnoldHigyed on 16/11/2018
+  * Created by ArnoldHigyed on 5/12/2018
   */
 object CollectionFunctionsAM extends App {
 
