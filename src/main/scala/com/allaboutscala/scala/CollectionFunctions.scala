@@ -150,6 +150,80 @@ object CollectionFunctions extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // FLATMAP: def flatMap[B](f: (A) ⇒ GenTraversableOnce[B]): TraversableOnce[B]
+
+  println("Step 1: How to initialize a Sequence of donuts")
+  val donuts1: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
+  println(s"Elements of donuts1 = $donuts1")
+
+  println("\nStep 2: How to initialize another Sequence of donuts")
+  val donuts2: Seq[String] = Seq("Vanilla Donut", "Glazed Donut")
+  println(s"Elements of donuts2 = $donuts2")
+
+  println("\nStep 3: How to create a List of donuts initialized using the two Sequences from Step 1 and Step 2")
+  val listDonuts: List[Seq[String]] = List(donuts1, donuts2)
+  println(s"Elements of listDonuts = $listDonuts")
+
+  println("\nStep 4: How to return a single list of donut using the flatMap function")
+  val listDonutsFromFlatMap: List[String] = listDonuts.flatMap(seq => seq)
+  println(s"Elements of listDonutsFromFlatMap as a flatMap as a single list = $listDonutsFromFlatMap")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // FLATTEN: def flatten[B]: Traversable[B]
+
+  println("\nStep 4: How to return a single list of donut using the flatten function")
+  val listDonutsFromFlatten: List[String] = listDonuts.flatten
+  println(s"Elements of listDonutsFromFlatten = $listDonutsFromFlatten")
+
+  println("\nStep 5: How to append the word Donut to each element of listDonuts using flatten and map functions")
+  val listDonutsFromFlatten2: List[String] = listDonuts.flatten.map(_ + " Donut")
+  println(s"Elements of listDonutsFromFlatten2 = $listDonutsFromFlatten2")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // FOLD: def fold[A1 >: A](z: A1)(op: (A1, A1) ⇒ A1): A1
+
+  println("Step 1: How to initialize a sequence of donut prices")
+  val prices: Seq[Double] = Seq(1.5, 2.0, 2.5)
+  println(s"Donut prices = $prices")
+
+  println("\nStep 2: How to sum all the donut prices using fold function")
+  val sum = prices.fold(0.0)(_ + _)
+  println(s"Sum = $sum")
+
+  println("\nStep 4: How to create a String of all donuts using fold function")
+  println(s"All donuts = ${donuts.fold("")((acc, s) => acc + s + " Donut ")}")
+
+  println("\nStep 5: How to declare a value function to create the donut string")
+  val concatDonuts: (String, String) => String = (s1, s2) => s1 + s2 + " Donut "
+  println(s"Value function concatDonuts = $concatDonuts")
+
+  println("\nStep 6: How to create a String of all donuts using value function from Step 5 and fold function")
+  println(s"All donuts = ${donuts.fold("")(concatDonuts)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
 
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
