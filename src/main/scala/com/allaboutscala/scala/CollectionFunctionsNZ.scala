@@ -277,41 +277,231 @@ object CollectionFunctionsNZ extends App {
     * The sortBy method takes a predicate function and will use it to sort the elements in the collection.
     */
 
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
+  println("\nStep 1: How to create a case class to represent Donut objects")
+  case class Donut(name: String, price: Double)
 
+  println("\nStep 2: How to create a Sequence of type Donut")
+  val donutsSeq: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
+  println(s"Elements of donuts = $donutsSeq")
 
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
+  println("\nStep 3: How to sort a sequence of case class objects using the sortBy function")
+  println(s"Sort a sequence of case class objects of type Donut, sorted by price = ${donutsSeq.sortBy(donut => donut.price)}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // SORTED: def sorted[B >: A](implicit ord: math.Ordering[B]): Repr
+  /**
+    * The sorted method will return a new collection with elements sorted by their natural order.
+    */
 
+  println("Step 1: How to initialize donut prices")
+  val prices: Seq[Double] = Seq(1.50, 2.0, 2.50)
+  println(s"Elements of prices = $prices")
 
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
+  println("\nStep 2: How to sort a sequence of type Double using the sorted function")
+  println(s"Sort a sequence of type Double by their natural ordering = ${prices.sorted}")
 
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
+  println("\nStep 4: How to sort a sequence of type String using the sorted function")
+  println(s"Sort a sequence of type String by their natural ordering = ${donuts.sorted}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
+  // SORTWITH: def sortWith(lt: (A, A) ⇒ Boolean): Repr
+  /**
+    * The sortWith method takes a predicate function and will use it to create a new collection where the elements are
+    * sorted by the predicate function.
+    */
 
+  println("\nStep 3: How to sort a sequence of case class objects using the sortWith function")
+  println(s"Sort a sequence of case classes of type Donut, sorted with price = ${donutsSeq.sortWith(_.price < _.price)}")
+
+  println("\nStep 4: How to sort a sequence of case class objects in ascending order using the sortWith function")
+  println(s"Sort a sequence of case classes of type Donut, sorted with price in ascending order = ${donutsSeq.sortWith(_.price < _.price)}")
+
+  println("\nStep 5: How to sort a sequence of case class objects in descending order using the sortWith function")
+  println(s"Sort a sequence of case classes of type Donut, sorted with price in descending order = ${donutsSeq.sortWith(_.price > _.price)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // TAIL: def tail: Repr
+  /**
+    * The tail method returns a collection consisting of all elements except the first one.
+    */
+
+  println("\nStep 2: How to return all elements in the sequence except the head using the tail function")
+  println(s"Elements of donuts excluding the head = ${donuts.tail}")
+
+  println("\nStep 3: How to access the last element of the donut sequence by using the last function")
+  println(s"Last element of donut sequence = ${donuts.last}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // TAKE: def take(n: Int): Repr
+  /**
+    * The take method takes an integer N as parameter and will use it to return a new collection consisting of the
+    * first N elements.
+    */
+
+  println("\nStep 2: How to take elements from the sequence using the take function")
+  println(s"Take the first donut element in the sequence = ${donuts.take(1)}")
+  println(s"Take the first and second donut elements in the sequence = ${donuts.take(2)}")
+  println(s"Take the first, second and third donut elements in the sequence = ${donuts.take(3)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // TAKERIGHT: def takeRight(n: Int): Repr
+  /**
+    * The takeRight method takes an integer N as parameter and will use it to return a new collection consisting of
+    * the last N elements.
+    */
+
+  println("\nStep 2: How to take the last N elements using the takeRight function")
+  println(s"Take the last donut element in the sequence = ${donuts.takeRight(1)}")
+  println(s"Take the last two donut elements in the sequence = ${donuts.takeRight(2)}")
+  println(s"Take the last three donut elements in the sequence = ${donuts.takeRight(3)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // TAKEWHILE: def takeWhile(p: (A) ⇒ Boolean): Repr
+  /**
+    * The takeWhile method takes a predicate function and will use it to return a new collection consisting of elements
+    * which match the predicate function.
+    */
+
+  println("\nStep 2: How to take elements from the List using the takeWhile function")
+  println(s"Take donut elements which start with letter P = ${donuts.takeWhile(_.charAt(0) == 'P')}")
+
+  println("\nStep 3: How to declare a predicate function to be passed-through to the takeWhile function")
+  val takeDonutPredicate: (String) => Boolean = (donutName) => donutName.charAt(0) == 'P'
+  println(s"Value function takeDonutPredicate = $takeDonutPredicate")
+
+  println("\nStep 4: How to take elements using the predicate function from Step 3")
+  println(s"Take elements using function from Step 3 = ${donuts.takeWhile(takeDonutPredicate)}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // TRANSPOSE: def transpose[B](implicit asTraversable: (A) ⇒ GenTraversableOnce[B]): CC[CC[B]]
+  /**
+    * The transpose method will pair and overlay elements from another collections into a single collection.
+    */
+
+  println("\nStep 3: How to create a List of donuts and prices")
+  val donutList = List(donuts, prices)
+  println(s"Sequence of donuts and prices = $donutList")
+  println("\nStep 4: How to pair each element from both donuts and prices Sequences using the transpose function")
+  println(s"Transposed list of donuts paired with their individual prices = ${donutList.transpose}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // UNION: def union(that: GenSet[A]): This
+  /**
+    * The union method takes a Set as parameter and will merge its elements with the elements from the current Set.
+    */
+
+  println("Step 1: How to initialize a Set of donuts")
+  val donuts1: Set[String] = Set("Plain Donut", "Strawberry Donut", "Glazed Donut")
+  println(s"Elements of donuts1 = $donuts1")
+
+  println("\nStep 2: How to initialize another Set of donuts")
+  val donuts2: Set[String] = Set("Plain Donut", "Chocolate Donut", "Vanilla Donut")
+  println(s"Elements of donuts2 = $donuts2")
+
+  println("\nStep 3: How to merge two Sets using union function")
+  println(s"Union of Sets donuts1 and donuts2 = ${donuts1 union donuts2}")
+  println(s"Union of Sets donuts2 and donuts1 = ${donuts2 union donuts1}")
+
+  println("\nStep 4: How to merge two Sets using ++ function")
+  println(s"Union of Sets donuts1 and donuts2 = ${donuts1 ++ donuts2}")
+  println(s"Union of Sets donuts2 and donuts1 = ${donuts2 ++ donuts1}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // UNZIP: def unzip[A1, A2](implicit asPair: (A) ⇒ (A1, A2)): (CC[A1], CC[A2])
+  /**
+    * The unzip method will unzip and un-merge a collection consisting of element pairs or Tuple2 into two separate
+    * collections.
+    */
+
+  println("\nStep 3: How to zip the donuts Sequence with their corresponding prices")
+  val zippedDonutsAndPrices: Seq[(String, Double)] = donuts zip donutPrices
+  println(s"Zipped donuts and prices = $zippedDonutsAndPrices")
+
+  println("\nStep 4: How to unzip the zipped donut sequence into separate donuts names and prices Sequences")
+  val unzipped: (Seq[String], Seq[Double]) = zippedDonutsAndPrices.unzip
+  println(s"Donut names unzipped = ${unzipped._1}")
+  println(s"Donut prices unzipped = ${unzipped._2}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // UNZIP3: def unzip3[A1, A2, A3](implicit asTriple: (A) ⇒ (A1, A2, A3)): (CC[A1], CC[A2], CC[A3])
+  /**
+    * The unzip3 method will un-merge a collection consisting of elements as Tuple3 into three separate collections.
+    */
+
+  println("Step 1: How to initialize a Sequence of Tuple3 elements")
+  val donuts3: Seq[(String, Double, String)] = Seq(("Plain Donut",1.5,"Tasty"), ("Glazed Donut",2.0,"Very Tasty"), ("Strawberry Donut",2.5,"Very Tasty"))
+  println(s"Donuts tuple3 elements = $donuts3")
+
+  println("\nStep 2: How to call unzip3 function to unzip Tuple3 elements")
+  val unzipped3: (Seq[String], Seq[Double], Seq[String]) = donuts3.unzip3
+  println(s"Unzipped donut names = ${unzipped3._1}")
+  println(s"Unzipped donut prices = ${unzipped3._2}")
+  println(s"Unzipped donut taste = ${unzipped3._3}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // VIEW: def view: TraversableView[A, Repr]
+  /**
+    * The view method will create a non-strict version of the collection which means that the elements of the
+    * collection will only be made available at access time.
+    */
+
+  println("Step 1: How to create a large numeric range and take the first 10 odd numbers")
+  val largeOddNumberList: List[Int] = (1 to 1000000).filter(_ % 2 != 0).take(10).toList
+  println(s"Take the first 100 odd numbers from largeOddNumberList = ${largeOddNumberList}")
+
+  println(s"\nStep 2: How to lazily create a large numeric range and take the first 10 odd numbers")
+  val lazyLargeOddNumberList = (1 to 1000000).view.filter(_ % 2 != 0).take(100).toList
+  println(s"Lazily take the first 100 odd numbers from lazyLargeOddNumberList = ${lazyLargeOddNumberList}")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // WITHFILTER: def withFilter(p: (A) ⇒ Boolean): FilterMonadic[A, Repr]
+  /**
+    * The withFilter method takes a predicate function and will restrict the elements to match the predicate function.
+    * withFilter does not create a new collection while filter() method will create a new collection.
+    */
+
+  println("\nStep 2: How to filter elements using the withFilter function")
+  donuts
+    .withFilter(_.charAt(0) == 'P')
+    .foreach(donut => println(s"Donut starting with letter P = $donut"))
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // ZIP: def zip[B](that: GenIterable[B]): Iterable[(A, B)]
+  /**
+    * The zip method takes another collection as parameter and will merge its elements with the elements of the current
+    * collection to create a new collection consisting of pairs or Tuple2 elements from both collections.
+    */
+
+  println("\nStep 3: How to use zip method to zip two collections")
+  val zippedDonutsAndPrices1: Seq[(String, Double)] = donuts zip donutPrices
+  println(s"Zipped donuts and prices = $zippedDonutsAndPrices1")
+
+  println("\n//-----------------------------------------------------------------------------------------------------\n")
+
+  // ZIPWITHINDEX: def zipWithIndex: Iterable[(A, Int)]
+  /**
+    * The zipWithIndex method will create a new collection of pairs or Tuple2 elements consisting of the element and
+    * its corresponding index.
+    */
+
+  println("\nStep 2: How to zip the donuts Sequence with their corresponding index using zipWithIndex method")
+  val zippedDonutsWithIndex: Seq[(String, Int)] = donuts.zipWithIndex
+  zippedDonutsWithIndex.foreach{ donutWithIndex =>
+    println(s"Donut element = ${donutWithIndex._1} is at index = ${donutWithIndex._2}")
+  }
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
