@@ -10,7 +10,7 @@ import scala.concurrent.Future
 
 /**
   * Created by ArnoldHigyed on 19/11/2018
-  */s
+  */
 class Tests extends FlatSpec with Matchers with ScalaFutures {
 
   behavior of "DonutStore class"

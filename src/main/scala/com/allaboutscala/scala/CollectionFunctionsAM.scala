@@ -9,6 +9,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // AGGREGATE: def aggregate[B](z: =>B)(seqop: (B, A) => B, combop: (B, B) => B): B = foldLeft(z)(seqop)
+  /**
+    * The aggregate method aggregates results by first applying a sequence operation which is its first parameter and
+    * then uses a combine operator to combine the results produced by the sequence operation.
+    */
 
   println("Step 1: How to initialize a Set of type String to represent Donut elements")
   val donutBasket1: Set[String] = Set("Plain Donut", "Strawberry Donut")
@@ -35,6 +39,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // COLLECT: def collect[B](pf: PartialFunction[A, B]): Traversable[B]
+  /**
+    * The collect method takes a Partial Function as its parameter and applies it to all the elements in the collection
+    * to create a new collection which satisfies the Partial Function.
+    */
 
   println("Step 1: How to initialize a Sequence which contains donut names and prices")
   val donutNamesandPrices: Seq[Any] = Seq("Plain Donut", 1.5, "Strawberry Donut", 2.0, "Glazed Donut", 2.5)
@@ -51,6 +59,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // DIFF: def diff(that: GenSet[A]): This
+  /**
+    * The diff method takes another Set as its parameter and uses it to find the elements that are different from the
+    * current Set compared to another Set.
+    */
 
   println("Step 1: How to initialize a Set containing 3 donuts")
   val donutBasket2: Set[String] = Set("Plain Donut", "Strawberry Donut", "Glazed Donut")
@@ -75,6 +87,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // DROP: def drop(n: Int): Repr
+  /**
+    * The drop method takes an integer parameter N and will return a new collection that does not contain the first N
+    * elements.
+    */
 
   println("Step 1: How to initialize a Sequence of donuts")
   val donuts: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
@@ -89,6 +105,11 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // DROPWHILE: def dropWhile(p: (A) ⇒ Boolean): Repr
+  /**
+    * The dropWhile method takes a predicate function parameter that will be used to drop all the elements in a
+    * collection which satisfies the predicate function. It will then return a new collection with elements that matched
+    * the predicate function.
+    */
 
   println("\nStep 2: How to drop elements from the sequence using the dropWhile function")
   println(s"Drop donut elements whose name starts with letter P = ${donuts.dropWhile(_.charAt(0) == 'P')}")
@@ -103,6 +124,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // EXISTS: def exists(p: (A) ⇒ Boolean): Boolean
+  /**
+    * The exists method takes a predicate function and will use it to find the first element in the collection which
+    * matches the predicate.
+    */
 
   println("\nStep 2: How to check if a particular element exists in the sequence using the exists function")
   val doesPlainDonutExists: Boolean = donuts.exists(donutName => donutName == "Plain Donut")
@@ -124,7 +149,15 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FILTER: def filter(p: (A) ⇒ Boolean): Repr
+  /**
+    * The filter method takes a predicate function as its parameter and uses it to select all the elements in the
+    * collection which matches the predicate. It will return a new collection with elements that matched the predicate.
+    */
   // FILETNOT: def filterNot(p: (A) ⇒ Boolean): Repr
+  /**
+    * The filterNot method is similar to the filter method except that it will create a new collection with elements
+    * that do not match the predicate function.
+    */
 
   println("\nStep 2: How to keep only Plain and Glazed Donuts using the filter method")
   val sequenceWithPlainAndGlazedDonut = donuts.filter { donutName =>
@@ -139,6 +172,11 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FIND: def find(p: (A) ⇒ Boolean): Option[A]
+  /**
+    * The find method takes a predicate function as parameter and uses it to find the first element in the collection
+    * which matches the predicate. It returns an Option and as such it may return a None for the case where it does not
+    * match any elements in the collection with the predicate function.
+    */
 
   println("\nStep 2: How to find a particular element in the sequence using the find function")
   val plainDonut: Option[String] = donuts.find(donutName => donutName == "Plain Donut")
@@ -151,6 +189,11 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FLATMAP: def flatMap[B](f: (A) ⇒ GenTraversableOnce[B]): TraversableOnce[B]
+  /**
+    * The flatMap method takes a predicate function, applies it to every element in the collection. It then returns a
+    * new collection by using the elements returned by the predicate function. The flatMap method is essentially a
+    * combination of the map method being run first followed by the flatten method.
+    */
 
   println("Step 1: How to initialize a Sequence of donuts")
   val donuts1: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
@@ -171,6 +214,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FLATTEN: def flatten[B]: Traversable[B]
+  /**
+    * The flatten method will collapse the elements of a collection to create a single collection with elements of the
+    * same type.
+    */
 
   println("\nStep 4: How to return a single list of donut using the flatten function")
   val listDonutsFromFlatten: List[String] = listDonuts.flatten
@@ -183,6 +230,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FOLD: def fold[A1 >: A](z: A1)(op: (A1, A1) ⇒ A1): A1
+  /**
+    * The fold method takes an associative binary operator function as parameter and will use it to collapse elements
+    * from the collection. The fold method allows you to also specify an initial value.
+    */
 
   println("Step 1: How to initialize a sequence of donut prices")
   val prices: Seq[Double] = Seq(1.5, 2.0, 2.5)
@@ -205,6 +256,11 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FOLDLEFT: def foldLeft[B](z: B)(op: (B, A) ⇒ B): B
+  /**
+    * The foldLeft method takes an associative binary operator function as parameter and will use it to collapse
+    * elements from the collection. The order for traversing the elements in the collection is from left to right and
+    * hence the name foldLeft. The foldLeft method allows you to also specify an initial value.
+    */
 
   println("\nStep 2: How to sum all the donut prices using foldLeft function")
   val sum1 = prices.foldLeft(0.0)(_ + _)
@@ -219,6 +275,15 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FOLDRIGHT: def foldRight[B](z: B)(op: (A, B) ⇒ B): B
+  /**
+    * The foldRight method takes an associative binary operator function as parameter and will use it to collapse
+    * elements from the collection. The order for traversing the elements in the collection is from right to left and
+    * hence the name foldRight. The foldRight method allows you to also specify an initial value.
+    */
+  /**
+    * Prefer using foldLeft as opposed to foldRight since foldLeft is fundamental in recursive function and will help
+    * you prevent stack-overflow exceptions.
+    */
 
   println("\nStep 2: How to sum all the donut prices using foldRight function")
   val sum2 = prices.foldRight(0.0)(_ + _)
@@ -233,6 +298,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // FOREACH: def foreach(f: (A) ⇒ Unit): Unit
+  /**
+    * The foreach method takes a function as parameter and applies it to every element in the collection. As an example,
+    * you can use foreach method to loop through all elements in a collection.
+    */
 
   println("\nStep 2: How to loop through all the elements in the sequence using the foreach function")
   donuts.foreach(println(_))
@@ -254,6 +323,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // GROUPBY: groupBy[K](f: (A) ⇒ K): immutable.Map[K, Repr]
+  /**
+    * The groupBy method takes a predicate function as its parameter and uses it to group elements by key and values
+    * into a Map collection.
+    */
 
   println("\nStep 2: How to group elements in a sequence using the groupBy function")
   val donutsGroup: Map[Char, Seq[String]] = donuts.groupBy(_.charAt(0))
@@ -273,6 +346,9 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // HEAD: def head: A
+  /**
+    * The head method will return the first element in the collection.
+    */
 
   println("\nStep 2: How to access the first element of the donut sequence")
   println(s"First element of donut sequence = ${donuts(0)}")
@@ -290,10 +366,16 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // ISEMPTY: abstract def isEmpty: Boolean
+  /**
+    * The isEmpty method will check whether a given collection is empty and will return either true or false.
+    */
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // INTERSECT: abstract def isEmpty: Boolean
+  /**
+    * The intersect method will find the common elements between two Sets.
+    */
 
   println("Step 1: How to initialize a Set of donuts")
   val donutsI1: Set[String] = Set("Plain Donut", "Strawberry Donut", "Glazed Donut")
@@ -310,6 +392,9 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // LAST: def last: A
+  /**
+    * The last method will return the last element in a collection.
+    */
 
   println("\nStep 2: How to access the last element of the donut sequence by index")
   println(s"Last element of donut sequence = ${donuts(donuts.size - 1)}")
@@ -320,6 +405,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // MAP: def map[B](f: (A) ⇒ B): Traversable[B]
+  /**
+    * The map method takes a predicate function and applies it to every element in the collection. It creates a new
+    * collection with the result of the predicate function applied to each and every element of the collection.
+    */
 
   println("\nStep 2: How to append the word Donut to each element using the map function")
   val donutsM: Seq[String] = donuts1.map(_ + " Donut")
@@ -348,6 +437,9 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // MAX: def max: A
+  /**
+    * The max method will iterate through all the elements in a collection and return the largest element.
+    */
 
   println("\nStep 2: How to find the maximum element in the sequence using the max function")
   println(s"Max element in the donuts sequence = ${donuts.max}")
@@ -358,6 +450,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // MAXBY: def maxBy[B](f: (A) ⇒ B): A
+  /**
+    * The maxBy method takes a predicate function as its parameter and applies it to every element in the collection
+    * to return the largest element.
+    */
 
   println("\nStep 3: How to find the maximum element in a sequence of case classes objects using the maxBy function")
   println(s"Maximum element in sequence of case class of type Donut, ordered by price = ${donutsD.maxBy(donut => donut.price)}")
@@ -372,6 +468,9 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // MIN: def min: A
+  /**
+    * The min method will iterate through all the elements in the collection and return the smallest element.
+    */
 
   println("\nStep 2: How to find the minimum element in the sequence using the min function")
   println(s"Min element in the donuts sequence = ${donuts.min}")
@@ -382,6 +481,10 @@ object CollectionFunctionsAM extends App {
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
   // MINBY: def minBy[B](f: (A) ⇒ B): A
+  /**
+    * The minBy method takes a predicate function as its parameter and applies it to every element in the collection
+    * to return the smallest element.
+    */
 
   println("\nStep 3: How to find the minimum element in a sequence of case classes using the minBy function")
   println(s"Minimum element in sequence of case class of type Donut, ordered by price = ${donutsD.minBy(donut => donut.price)}")
@@ -400,6 +503,12 @@ object CollectionFunctionsAM extends App {
   //           def mkString(sep: String): String
   //
   //           def mkString(start: String, sep: String, end: String): String
+  /**
+    * The mkString method will help you create a String representation of collection elements by iterating through the
+    * collection. The mkString method has an overloaded method which allows you to provide a delimiter to separate each
+    * element in the collection. Furthermore, there is another overloaded method to also specify any prefix and postfix
+    * literal to be preprended or appended to the String representation..
+    */
 
   println("\nStep 2: How to concatenate the elements of a sequence into a String using mkString function")
   val donutsAsString: String = donuts.mkString(" and ")

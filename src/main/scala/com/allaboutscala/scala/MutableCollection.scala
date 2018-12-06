@@ -8,6 +8,12 @@ import scala.collection.mutable.{ArrayBuffer, ArrayStack, HashMap, ListBuffer, L
 object MutableCollection extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is an Array?
+    *
+    * As per Wikipedia, an Array is a mutable data structure of fixed length. It also allows you to access and modify
+    * elements at specific index.
+    */
 
   println("Step 1: How to initialize a String Array with 3 elements")
   val array1: Array[String] = Array("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -91,6 +97,13 @@ object MutableCollection extends App {
   println(s"using deep function = ${array1.deep == arrayToCompare.deep}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is an ArrayBuffer?
+    *
+    * As per the Scala Documentation, an ArrayBuffer is a mutable data structure which allows you to access and modify
+    * elements at specific index.
+    * Compared to the previous tutorial on Array, an ArrayBuffer is resizable while an Array is fixed in size.
+    */
 
   println("Step 1: How to initialize an ArrayBuffer with 3 elements")
   val arrayBuffer1: ArrayBuffer[String] = ArrayBuffer("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -123,6 +136,15 @@ object MutableCollection extends App {
   println(s"Empty array buffer = $emptyArrayBuffer")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is an ArrayStack?
+    *
+    * As per Wikipedia, a Stack is a data structure which follows the LIFO (Last In First Out) semantics. It typically
+    * provides a push() method to add element at the top of the Stack and a pop() method to take the most recently added
+    * element from the top of the Stack.
+    * As per Scala Documentation, an ArrayStack provides the Stack semantics while internally being backed by an Array
+    * data structure.
+    */
 
   println("Step 1: How to initialize ArrayStack with 3 elements")
   val arrayStack1: ArrayStack[String] = ArrayStack("Plain Donut", "Strawberry Donut", "Chocolate Donut")
@@ -154,6 +176,12 @@ object MutableCollection extends App {
   println(s"Empty Stack = $emptyArrayStack")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a ListBuffer?
+    *
+    * As per the Scala Documentation, a ListBuffer is resizable similar to an ArrayBuffer, except that it uses a Linked
+    * List as its internal data structure.
+    */
 
   println("Step 1: How to initialize a ListBuffer with 3 elements")
   val listBuffer1: ListBuffer[String] = ListBuffer("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -185,6 +213,12 @@ object MutableCollection extends App {
   println(s"Empty list buffer = $emptyListBuffer")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a ListBuffer?
+    *
+    * As per the Scala Documentation, a ListBuffer is resizable similar to an ArrayBuffer, except that it uses a Linked
+    * List as its internal data structure.
+    */
 
   println("\nStep 1: How to initialize a Map with 3 elements")
   val map1: Map[String, String] = Map(("PD","Plain Donut"),("SD","Strawberry Donut"),("CD","Chocolate Donut"))
@@ -215,6 +249,12 @@ object MutableCollection extends App {
   println(s"Empty Map = $emptyMap")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a HashMap?
+    *
+    * As per the Scala Documentation, a HashMap is a collection of key and value pairs which are stored internally
+    * using a Hash Table data structure.
+    */
 
   println("\nStep 1: How to initialize a HashMap with 3 elements")
   val hashMap1: HashMap[String, String] = HashMap(("PD","Plain Donut"),("SD","Strawberry Donut"),("CD","Chocolate Donut"))
@@ -245,6 +285,12 @@ object MutableCollection extends App {
   println(s"Empty HashMap = $emptyMap")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a ListMap?
+    *
+    * As per the Scala Documentation, a ListMap is a collection of key and value pairs where the keys are backed
+    * by a List data structure.
+    */
 
   println("\nStep 1: How to initialize a ListMap with 3 elements")
   val listMap1: ListMap[String, String] = ListMap("PD" -> "Plain Donut", "SD" ->"Strawberry Donut", "CD" -> "Chocolate Donut")
@@ -275,6 +321,12 @@ object MutableCollection extends App {
   println(s"Empty ListMap of type String = $emptyListMap")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a LinkedHashMap?
+    *
+    * As per the Scala Documentation, a LinkedHashMap is a collection of key and value pairs which are stored internally
+    * using Hash Table data structure. But iterating through the elements is done in order.
+    */
 
   println("\nStep 1: How to initialize a LinkedHashMap with 3 elements")
   val linkedHashMap1: LinkedHashMap[String, String] = LinkedHashMap("PD" -> "Plain Donut", "SD" ->"Strawberry Donut", "CD" -> "Chocolate Donut")
@@ -305,6 +357,14 @@ object MutableCollection extends App {
   println(s"Empty LinkedHashMap of type String = $emptyLinkedHashMap")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a Queue?
+    *
+    * As per Wikipedia, a Queue is a data structure which follows the FIFO (First In First Out) semantics. In other
+    * words, the first element that was added to the queue will be the first one to be removed.
+    * As per the Scala Documentation, a mutable Queue has an internal data structure which allows you to insert and
+    * retrieve elements in a FIFO manner.
+    */
 
   println("\nStep 1: How to initialize a Queue with 3 elements")
   val queue1: Queue[String] = Queue("Plain Donut", "Strawberry Donut", "Chocolate Donut")
@@ -333,6 +393,15 @@ object MutableCollection extends App {
   println(s"Empty Queue = $emptyQueue")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a PriorityQueue?
+    *
+    * As per Wikipedia, a PriorityQueue is similar to a queue data structure except that elements added to the queue
+    * are associated with a priority. This priority is then used to determine which elements get dequeued or removed
+    * from the queue.
+    * As per the Scala Documentation, a mutable PriorityQueue is implemented using a heap data structure and only the
+    * method dequeue and dequeueAll will return the elements in their priority order.
+    */
 
   println("Step 1: How to declare a case class to represent Donut object")
   case class Donut(name: String, price: Double)
@@ -365,6 +434,13 @@ object MutableCollection extends App {
   println(s"Empty emptyPriorityQueue = $emptyPriorityQueue")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a Set?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store elements which are not repeatable. A Set
+    * also does not guarantee the ordering of elements.
+    * As per Scala Documentation, a Mutable Set is a generic trait to support set semantics and behaviour.
+    */
 
   println("\nStep 1: How to initialize a Set with 3 elements")
   val set1: Set[String] = Set("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -399,6 +475,13 @@ object MutableCollection extends App {
   println(s"Empty Set = $emptySet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a HashSet?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store elements which are not repeatable. A Set
+    * also does not guarantee the ordering of elements.
+    * As per Scala Documentation, a Mutable HashSet is the concrete implementation of the mutable Set trait.
+    */
 
   println("\nStep 1: How to initialize a HashSet with 3 elements")
   val hashSet1: HashSet[String] = HashSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -433,6 +516,14 @@ object MutableCollection extends App {
   println(s"Empty HashSet = $emptyHashSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a SortedSet?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store elements which are not repeatable. While a
+    * Set also does not guarantee the ordering of elements, a SortedSet will produce elements in a given order.
+    * As per Scala Documentation, a SortedSet is a trait which provides the Set semantics but also allows you to drive
+    * the ordering of the elements within the SortedSet.
+    */
 
   println("\nStep 1: How to initialize a SortedSet with 3 elements")
   val sortedSet1: SortedSet[String] = SortedSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -474,6 +565,15 @@ object MutableCollection extends App {
   println(s"Empty SortedSet = $emptySortedSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a TreeSet?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store elements which are not repeatable. While a
+    * Set also does not guarantee the ordering of elements, a TreeSet will produce elements in a given order.
+    * As per Scala Documentation, a SortedSet is a trait which provides the Set semantics but also allows you to drive
+    * the ordering of the elements within the SortedSet. A TreeSet is a class implementation of the SortedSet trait and
+    * it uses a Red Black Tree as its underlying data structure.
+    */
 
   println("\nStep 1: How to initialize a TreeSet with 3 elements")
   val treeSet1: TreeSet[String] = TreeSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -515,6 +615,16 @@ object MutableCollection extends App {
   println(s"Empty TreeSet = $emptyTreeSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a LinkedHashSet?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store elements which are not repeatable. A Set
+    * also does not guarantee the ordering of elements.
+    * As per the Scala Documentation, a LinkedHashSet will produce elements in order they were inserted to the
+    * LinkedHashSet. As mentioned in the previous tutorials, TreeSet and SortedSet allow you to drive the order of the
+    * elements. TreeSet and SortedSet should not be confused with LinkedHashSet where the order of elements will be
+    * according to the insertion order of the elements.
+    */
 
   println("\nStep 1: How to initialize a LinkedHashSet with 3 elements")
   val linkedHashSet1: LinkedHashSet[String] = LinkedHashSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -557,6 +667,13 @@ object MutableCollection extends App {
   linkedHashSet3.foreach(donut => println(s"$donut"))
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a BitSet?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store elements which are not repeatable. A Set
+    * also does not guarantee the ordering of elements.
+    * As per the Scala Documentation, a BitSet represents a collection of small integers as the bits of a larger integer.
+    */
 
   println("\nStep 1: How to initialize a BitSet")
   val bitSet1: BitSet = BitSet(0, 2, 4, 6, 8)

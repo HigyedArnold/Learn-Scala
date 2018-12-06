@@ -245,6 +245,12 @@ object ImmutableCollection extends App {
   println(s"Empty Sequence = $emptySeq")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a Set?
+    *
+    * As per Wikipedia, a Set is a data structure which allows you to store some values but where the values cannot be
+    * repeatable.
+    */
 
   println("Step 1: How to initialize a Set with 3 elements")
   val set1: Set[String] = Set("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -279,6 +285,14 @@ object ImmutableCollection extends App {
   println(s"Empty Set = $emptySet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a HashSet?
+    *
+    * In Scala, a HashSet is a concrete implementation of Set semantics. The HashSet will use the element's hashCode
+    * as a key to allow for fast lookup of the element's value within the HashSet.
+    * The internal data structure of the HashSet in Scala is a HashTrie and this is different to a HashTable if you
+    * come from a Java background. You can learn more about HashTrie from Wikipedia.
+    */
 
   println("Step 1: How to initialize a HashSet with 3 elements")
   val hashSet1: HashSet[String] = HashSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -314,6 +328,14 @@ object ImmutableCollection extends App {
   println(s"Empty HashSet = $emptyHashSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a TreeSet?
+    *
+    * Following on from the previous tutorials on HashSet and Set, a TreeSet allows you to store unique elements but
+    * also provides ordering of the elements.
+    * As per the Scala documentation, TreeSet internally uses a Red-Back data structure to ensure a balanced tree that
+    * will provide O(log n) for most operations.
+    */
 
   println("Step 1: How to initialize a TreeSet with 3 elements")
   val treeSet1: TreeSet[String] = TreeSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -358,6 +380,14 @@ object ImmutableCollection extends App {
   println(s"Empty TreeSet = $emptyTreeSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a SortedSet?
+    *
+    * Following on from the previous tutorials on Set, HashSet, and TreeSet, a SortedSet allows you to store unique
+    * elements but also provides ordering of the elements.
+    * As per the Scala documentation, SortedSet is a trait. Its concrete class implementation is a TreeSet which we
+    * discussed in the previous tutorial.
+    */
 
   println("Step 1: How to initialize a SortedSet with 3 elements")
   val sortedSet1: SortedSet[String] = SortedSet("Plain Donut","Strawberry Donut","Chocolate Donut")
@@ -401,6 +431,11 @@ object ImmutableCollection extends App {
   println(s"Empty SortedSet = $emptySortedSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * Following on from the previous tutorials on Set, HashSet, TreeSet, and SortedSet, a BitSet also allows you to
+    * store unique elements with no repeatable values.
+    * As per the Scala documentation, a BitSet represents a collection of small integers as the bits of a larger integer.
+    */
 
   println("Step 1: How to initialize a BitSet with 3 elements")
   val bitSet1: BitSet = BitSet(3, 2, 0)
@@ -436,6 +471,14 @@ object ImmutableCollection extends App {
   println(s"Empty BitSet = $emptyBitSet")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a Stack?
+    *
+    * As per Wikipedia, a Stack is a data structure which follows the LIFO (Last In First Out) semantics.
+    *
+    * It typically provides a push() method to add element at the top of the Stack and a pop() method to take the
+    * most recently added element from the top of the Stack.
+    */
 
   println("Step 1: How to initialize Stack with 3 elements")
   val stack1: Stack[String] = Stack("Plain Donut", "Strawberry Donut", "Chocolate Donut")
@@ -462,6 +505,12 @@ object ImmutableCollection extends App {
   println(s"Using an Immutable List for stack, the empty stack = $emptyStack")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a Stream?
+    *
+    * As per the Scala Documentation, a Stream is a similar data structure to a list except that the elements of the
+    * Stream will be lazily computer. As a result, you can have infinitely long Streams!
+    */
 
   println("Step 1: How to create a Stream with 3 numbers using #::")
   val stream1: Stream[Int] = 1 #:: 2 #:: 3 #:: Stream.empty[Int]
@@ -493,6 +542,12 @@ object ImmutableCollection extends App {
   println(s"Empty Stream = $emptyStream")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
+  /**
+    * What is a Vector?
+    *
+    * As per the Scala Documentation, a Vector is data structure which is similar to a List. However, it addresses the
+    * inefficiencies of random access within a List.
+    */
 
   println("Step 1: How to initialize a Vector with 3 elements")
   val vector1: Vector[String] = Vector("Plain Donut", "Strawberry Donut", "Chocolate Donut")
