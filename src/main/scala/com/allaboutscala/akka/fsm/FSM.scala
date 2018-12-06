@@ -1,7 +1,6 @@
 package com.allaboutscala.akka.fsm
 
-import akka.actor.FSM.Event
-import akka.actor.{Actor, ActorLogging, ActorSystem, LoggingFSM, Props}
+import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Failure, Success}
@@ -143,115 +142,12 @@ object FSM extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
-  println("Step 1: Create ActorSystem")
-  val system2 = ActorSystem("DonutActorFSM")
-
-  println("\nStep 2: Defining events")
-  sealed trait BakingEvents
-  final case object BakingDonut extends BakingEvents
-  final case object AddTopping extends BakingEvents
-  final case object StopBake extends BakingEvents
-
-  println("\nStep 3: Defining states")
-  sealed trait BakingStates
-  case object Start extends BakingStates
-  case object Stop extends BakingStates
-
-  println("\nStep 4: Defining mutatable data")
-  case class BakingData(qty: Int) {
-    def addOneDonut = copy(qty + 1)
-  }
-
-  object BakingData {
-    def initialQuantity = BakingData(0)
-  }
-
-  println("\nStep 5: Define DonutBakingActor using LoggingFSM trait")
-  class DonutBakingActor2 extends LoggingFSM[BakingStates, BakingData] {
-    startWith(Stop, BakingData.initialQuantity)
-
-    when(Stop) {
-      case Event(BakingDonut, _) =>
-        println("Current state is [Stop], switching to [Start]")
-        goto(Start).using(stateData.addOneDonut)
-
-      case Event(AddTopping, _) =>
-        println("Current state is [Stop], you first need to move to [BakeDonut]")
-        stay
-    }
-
-    when(Start) {
-      case Event(StopBake, _) =>
-        println(s"Event StopBaking, current donut quantity = ${stateData.qty}")
-        goto(Stop)
-    }
-
-    whenUnhandled {
-      case Event(event, stateData) =>
-        println(s"We've received an unhandled event = [$event] for the state data = [$stateData]")
-        goto(Stop)
-    }
-
-    initialize()
-  }
-
-  println("\nStep 6: Create DonutBakingActor")
-  val bakingActor2 = system2.actorOf(Props[DonutBakingActor2], "donut-baking-actor2")
-
-  println("\nStep 7: Send events to actor to switch states and process events")
-  bakingActor2 ! AddTopping
-  Thread.sleep(2000)
-
-  bakingActor2 ! BakingDonut
-  Thread.sleep(2000)
-
-  bakingActor2 ! AddTopping
-  Thread.sleep(2000)
-
-  bakingActor2 ! BakingDonut
-  Thread.sleep(2000)
-
-  bakingActor2 ! StopBake
-  Thread.sleep(2000)
-
-  bakingActor2 ! AddTopping
-  Thread.sleep(2000)
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
   val isTerminated = system.terminate()
 
   isTerminated.onComplete {
     case Success(result) => println("Successfully terminated actor system")
     case Failure(e)     => println("Failed to terminate actor system")
   }
-
-  val isTerminated2 = system2.terminate()
-
-  isTerminated2.onComplete {
-    case Success(result) => println("Successfully terminated actor system")
-    case Failure(e)     => println("Failed to terminate actor system")
-  }
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
-
-  println("\n//-----------------------------------------------------------------------------------------------------\n")
-
-
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
