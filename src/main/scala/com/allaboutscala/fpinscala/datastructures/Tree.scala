@@ -1,12 +1,12 @@
+package com.allaboutscala.fpinscala.datastructures
+
+
 /**
   * Solved by ArnoldHigyed on 06/12/2018
   */
-package com.allaboutscala.fpinscala.datastructures
-
 sealed trait Tree[+A]
 case class Leaf[A](value: A) extends Tree[A]
 case class Branch[A](left: Tree[A], right: Tree[A]) extends Tree[A]
-
 
 object Tree {
 
