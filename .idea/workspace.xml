@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/Tree.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/Tree.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Either.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Either.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Option.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Option.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
                 <element signature="e#36#65#0" expanded="true" />
               </folding>
@@ -53,10 +51,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="211" column="21" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -89,6 +96,7 @@
       <find>for</find>
       <find>tail</find>
       <find>: =&gt;</find>
+      <find>exists</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -145,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Either.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Option.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala" />
       </list>
     </option>
   </component>
@@ -154,7 +163,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1920" />
     <option name="height" value="1164" />
   </component>
@@ -306,6 +315,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="fpinscala" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,7 +374,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544192392698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544432270567" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -373,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="List" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.allaboutscala.fpinscala.datastructures.List" />
       <module name="allaboutscala" />
@@ -387,12 +406,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.fpinscala.laziness.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.fpinscala.state.Main" />
       <module name="allaboutscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.fpinscala.laziness.*" />
+          <option name="PATTERN" value="com.allaboutscala.fpinscala.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,12 +419,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyModule" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.fpinscala.gettingstarted.MyModule" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.fpinscala.laziness.Main" />
       <module name="allaboutscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.fpinscala.datastructures.*" />
+          <option name="PATTERN" value="com.allaboutscala.fpinscala.laziness.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,11 +460,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.List" />
         <item itemvalue="Application.Tree" />
         <item itemvalue="Application.PolymorphicFunctions" />
-        <item itemvalue="Application.MyModule" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +523,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1164" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
@@ -517,7 +536,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22779922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22014925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3996139" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -873,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="525">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
             <element signature="e#36#65#0" expanded="true" />
           </folding>
@@ -883,8 +902,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="211" column="21" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="21" />
         </state>
       </provider>
     </entry>
