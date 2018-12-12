@@ -37,6 +37,13 @@ class DonutBakingActorFSMTests
     }
   }
 
+  "DonutBakingActor" should {
+    "process StopBaking event and switch to BakingStates.Stop state" in {
+      donutBakingActorFSM ! StopBaking
+      awaitCond(donutBakingActorFSM.stateName == Stop, 2 second, 1 second)
+    }
+  }
+
   override protected def afterAll(): Unit = {
     TestKit.shutdownActorSystem(system)
   }
