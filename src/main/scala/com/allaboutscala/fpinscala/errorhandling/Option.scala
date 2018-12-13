@@ -3,7 +3,7 @@ package com.allaboutscala.fpinscala.errorhandling
 package fpinscala.errorhandling
 
 
-import scala.{Option => _, Some => _, Either => _, _} // hide std library `Option`, `Some` and `Either`, since we are writing our own in this chapter
+import scala.{Either => _, Option => _, Some => _} // hide std library `Option`, `Some` and `Either`, since we are writing our own in this chapter
 
 /**
   * Solved by ArnoldHigyed on 06/12/2018

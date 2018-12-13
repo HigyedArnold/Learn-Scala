@@ -1,8 +1,8 @@
 package scalatest.fixtures
 
 import org.scalatest._
-import scala.concurrent.Future
-import scala.concurrent.ExecutionContext
+
+import scala.concurrent.{ExecutionContext, Future}
 
 /**
   * Created by ArnoldHigyed on 5/12/2018

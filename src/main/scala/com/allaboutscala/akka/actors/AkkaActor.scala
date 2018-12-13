@@ -1,16 +1,15 @@
 package com.allaboutscala.akka.actors
 
 import akka.actor.SupervisorStrategy.{Escalate, Restart}
-import akka.actor.{Actor, ActorLogging, ActorSystem, OneForOneStrategy, PoisonPill, Props, SupervisorStrategy}
+import akka.actor.{Actor, ActorLogging, ActorSystem, OneForOneStrategy, Props, SupervisorStrategy}
+import akka.pattern._
+import akka.util.Timeout
 import com.allaboutscala.akka.actors.AkkaActor.DonutStoreProtocol.{CheckStock, Info, WorkerFailedException}
 
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.util.{Failure, Success}
-import akka.pattern._
-import akka.util.Timeout
-
 import scala.concurrent.Future
 import scala.concurrent.duration._
+import scala.util.{Failure, Success}
 
 /**
   * Created by ArnoldHigyed on 19/11/2018
@@ -32,8 +31,6 @@ object AkkaActor extends App {
 //  }
 //
 //  Thread.sleep(5000)
-
-  // TODO tell and ask pattern
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 

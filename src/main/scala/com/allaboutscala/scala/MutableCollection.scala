@@ -1,6 +1,6 @@
 package com.allaboutscala.scala
 
-import scala.collection.mutable.{ArrayBuffer, ArrayStack, HashMap, ListBuffer, ListMap, Map, LinkedHashMap, Queue, PriorityQueue, Set, HashSet, SortedSet, TreeSet, LinkedHashSet, BitSet}
+import scala.collection.mutable.{ArrayBuffer, ArrayStack, BitSet, HashMap, HashSet, LinkedHashMap, LinkedHashSet, ListBuffer, ListMap, Map, PriorityQueue, Queue, Set, SortedSet, TreeSet}
 
 /**
   * Created by ArnoldHigyed on 16/11/2018

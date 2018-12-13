@@ -18,7 +18,6 @@ object Futures extends App {
     println("checking donut stock")
     10
   }
-  // TODO await is blocking, rather don't use it
   println("\nStep 2: Call method which returns a Future")
   import scala.concurrent.Await
   import scala.concurrent.duration._

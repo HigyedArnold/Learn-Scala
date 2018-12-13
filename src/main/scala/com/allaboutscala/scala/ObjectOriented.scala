@@ -19,7 +19,6 @@ object ObjectOriented extends App {
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
-  // TODO companion classes
 //  println("\nStep 2: How to declare a companion object for the Donut class")
 //  println("\nStep 3: How to create instances of the Donut class using the companion object")
 //  val glazedDonut1 = Donut("Glazed Donut", 1111)
@@ -201,14 +200,12 @@ object ObjectOriented extends App {
 //    }
 //  }
 
-  // TODO so you can use either implicit classes, to contain more functionalities over a given object, or implicit functions, as wrappers
   println("\nStep 4: How to import and use the implicit class AugmentedDonut from Step 3")
 //  import DonutImplicits._
   println(s"Vanilla donut uuid = ${vanillaDonut.uuid}")
 
   println("\n//-----------------------------------------------------------------------------------------------------\n")
 
-  // TODO package object
   println("\nStep 5: How to create instances or objects for the Donut case class from package object")
   val vanillaDonutP: Donut = Donut("Vanilla", 1.50)
   println(s"Vanilla donut name = ${vanillaDonutP.name}")

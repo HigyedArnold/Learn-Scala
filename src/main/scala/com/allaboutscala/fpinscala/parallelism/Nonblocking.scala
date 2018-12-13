@@ -1,8 +1,8 @@
 package com.allaboutscala.fpinscala.parallelism
 
 import java.util.concurrent.{Callable, CountDownLatch, ExecutorService}
-import java.util.concurrent.atomic.AtomicReference
-import language.implicitConversions
+
+import scala.language.implicitConversions
 
 /**
   * Reviewed by ArnoldHigyed on 12/12/2018

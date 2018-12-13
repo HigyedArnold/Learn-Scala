@@ -1,6 +1,7 @@
 package scalatest
 
 import org.scalatest.AsyncFlatSpec
+
 import scala.concurrent.Future
 
 /**

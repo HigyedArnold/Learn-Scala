@@ -1,7 +1,9 @@
 package scalatest.fixtures
 
 import java.io.File
+
 import org.scalatest._
+
 import scala.concurrent.Future
 
 /**

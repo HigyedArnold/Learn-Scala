@@ -1,6 +1,6 @@
 package com.allaboutscala.fpinscala.errorhandling
 
-import scala.{Option => _, Either => _, Left => _, Right => _, _} // hide std library `Option` and `Either`, since we are writing our own in this chapter
+import scala.{Either => _, Left => _, Option => _, Right => _} // hide std library `Option` and `Either`, since we are writing our own in this chapter
 
 /**
   * Solved by ArnoldHigyed on 06/12/2018

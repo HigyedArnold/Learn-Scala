@@ -1,9 +1,7 @@
 package scalatest
 
-import org.scalatest.FlatSpec
 import org.scalatest.tagobjects.Slow
-
-import org.scalatest.Tag
+import org.scalatest.{FlatSpec, Tag}
 
 /**
   * Created by ArnoldHigyed on 5/12/2018

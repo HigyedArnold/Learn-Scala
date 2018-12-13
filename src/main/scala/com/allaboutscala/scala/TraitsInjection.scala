@@ -237,7 +237,6 @@ object raitsInjection extends App {
     }
   }
 
-  // TODO cake pattern and facade solution
   println("\nStep 2: How to define a class to encapsulate pricing services")
   class DonutPricingService[T] {
     def calculatePrice(donut: T): Double = {

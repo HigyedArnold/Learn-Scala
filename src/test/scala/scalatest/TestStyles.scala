@@ -18,7 +18,7 @@ class SetSuite extends FunSuite {
   }
 }
 
-import org.scalatest.{FlatSpec, FunSuite}
+import org.scalatest.FlatSpec
 
 class SetSpecFlat extends FlatSpec {
 
@@ -91,7 +91,8 @@ class SetSpecFree extends FreeSpec {
 }
 
 import org.scalatest._
-import prop._
+import org.scalatest.prop._
+
 import scala.collection.immutable._
 
 class SetSpecProp extends PropSpec with TableDrivenPropertyChecks with Matchers {

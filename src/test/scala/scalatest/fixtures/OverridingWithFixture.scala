@@ -1,7 +1,8 @@
 package scalatest.fixtures
 
-import org.scalatest.fixture
 import java.io._
+
+import org.scalatest.fixture
 
 /**
   * Created by ArnoldHigyed on 5/12/2018

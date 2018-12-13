@@ -1,7 +1,8 @@
 package com.allaboutscala.fpinscala.parallelism
 
 import java.util.concurrent._
-import language.implicitConversions
+
+import scala.language.implicitConversions
 
 /**
   * Reviewed by ArnoldHigyed on 12/12/2018
@@ -139,7 +140,6 @@ object Par {
 }
 
 object Examples {
-  import Par._
   def sum(ints: IndexedSeq[Int]): Int = // `IndexedSeq` is a superclass of random-access sequences like `Vector` in the standard library. Unlike lists, these sequences provide an efficient `splitAt` method for dividing them into two parts at a particular index.
     if (ints.size <= 1)
       ints.headOption getOrElse 0 // `headOption` is a method defined on all collections in Scala. We saw this function in chapter 3.

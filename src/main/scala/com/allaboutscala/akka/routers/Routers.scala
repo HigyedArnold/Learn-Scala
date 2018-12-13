@@ -1,17 +1,16 @@
 package com.allaboutscala.akka.routers
 
 import akka.actor.SupervisorStrategy.{Escalate, Restart}
-import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, OneForOneStrategy, PoisonPill, Props, SupervisorStrategy}
-import com.allaboutscala.akka.actors.AkkaActor.DonutStoreProtocol.{CheckStock, Info, WorkerFailedException}
-
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.util.{Failure, Success}
+import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, OneForOneStrategy, Props, SupervisorStrategy}
 import akka.pattern._
 import akka.routing._
 import akka.util.Timeout
+import com.allaboutscala.akka.actors.AkkaActor.DonutStoreProtocol.{CheckStock, WorkerFailedException}
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import scala.concurrent.duration._
+import scala.util.{Failure, Success}
 
 /**
   * Created by ArnoldHigyed on 19/11/2018

@@ -4,6 +4,7 @@ import akka.actor.ActorSystem
 import akka.testkit.{DefaultTimeout, ImplicitSender, TestFSMRef, TestKit}
 import com.allaboutscala.akka.fsm.LoggingFSM._
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
+
 import scala.concurrent.duration._
 
 /**

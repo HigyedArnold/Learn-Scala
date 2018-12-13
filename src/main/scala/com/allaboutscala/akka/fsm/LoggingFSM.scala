@@ -72,8 +72,7 @@ object LoggingFSM extends App {
       case Start -> Stop => println("Switching state from [Start -> Stop]")
     }
 
-    import akka.actor.FSM._
-    import akka.actor.FSM.Failure
+    import akka.actor.FSM.{Failure, _}
     onTermination {
       case StopEvent(Normal, state, data) =>
         log.info(s"Actor onTermination, event = Normal, state = $state, data = $data")

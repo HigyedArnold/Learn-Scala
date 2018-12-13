@@ -1,9 +1,10 @@
 package scalatest.fixtures
 
-import org.scalatest.FlatSpec
-import DbServer._
-import java.util.UUID.randomUUID
 import java.io._
+import java.util.UUID.randomUUID
+
+import org.scalatest.FlatSpec
+import scalatest.fixtures.DbServer._
 
 /**
   * Created by ArnoldHigyed on 5/12/2018

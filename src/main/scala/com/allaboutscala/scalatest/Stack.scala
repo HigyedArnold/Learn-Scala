@@ -1,4 +1,4 @@
-package com.allaboutscala.scalaTest
+package com.allaboutscala.scalatest
 
 import scala.collection.mutable.ListBuffer
 

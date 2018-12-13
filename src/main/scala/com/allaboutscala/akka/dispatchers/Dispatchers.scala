@@ -2,19 +2,13 @@ package com.allaboutscala.akka.dispatchers
 
 import java.util.concurrent.TimeUnit
 
-import akka.actor.SupervisorStrategy.{Escalate, Restart}
-import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, OneForOneStrategy, PoisonPill, Props, SupervisorStrategy}
-import com.allaboutscala.akka.actors.AkkaActor.DonutStoreProtocol.{CheckStock, Info, WorkerFailedException}
-
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.util.{Failure, Success}
-import akka.pattern._
-import akka.routing._
+import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
 import akka.util.Timeout
 import com.allaboutscala.akka.dispatchers.Dispatchers.DonutStoreProtocol.{DonutStockRequest, StockRequest}
 
-import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
+import scala.concurrent.{Await, Future}
+import scala.util.{Failure, Success}
 
 /**
   * Created by ArnoldHigyed on 19/11/2018
@@ -51,7 +45,6 @@ object Dispatchers extends App {
   val system1 = ActorSystem("DonutStoreActorSystem")
 
   println("Step 3: Lookup our fixed-thread-pool dispatcher from application.conf")
-  import com.allaboutscala.akka.actors.AkkaActor.DonutStoreProtocol._
   import akka.pattern._
   implicit val timeout = Timeout(1, TimeUnit.MINUTES)
   implicit val executionContext = system1.dispatchers.lookup("resizable-thread-pool")

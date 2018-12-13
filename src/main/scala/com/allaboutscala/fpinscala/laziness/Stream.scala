@@ -1,6 +1,6 @@
 package com.allaboutscala.fpinscala.laziness
 
-import Stream._
+import com.allaboutscala.fpinscala.laziness.Stream._
 
 /**
   * Solved by ArnoldHigyed on 06/12/2018
