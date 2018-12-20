@@ -45,6 +45,12 @@ class DonutBakingActorFSMTests
     }
   }
 
+  "DonutBakingActor current donut quantity" should {
+    "equal to 1 after the StopBaking event" in {
+      donutBakingActorFSM.stateData.qty shouldEqual 1
+    }
+  }
+
   override protected def afterAll(): Unit = {
     TestKit.shutdownActorSystem(system)
   }
