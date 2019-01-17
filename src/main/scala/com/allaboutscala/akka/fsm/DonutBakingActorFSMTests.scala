@@ -1,7 +1,8 @@
 package com.allaboutscala.akka.fsm
 
 import akka.actor.ActorSystem
-import akka.testkit.{DefaultTimeout, ImplicitSender, TestFSMRef, TestKit}
+import akka.testkit.{DefaultTimeout, ImplicitSender, TestActorRef, TestFSMRef, TestKit}
+import com.allaboutscala.akka.fsm.DonutStoreProtocol.Info
 import com.allaboutscala.akka.fsm.LoggingFSM._
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
 
@@ -48,6 +49,17 @@ class DonutBakingActorFSMTests
   "DonutBakingActor current donut quantity" should {
     "equal to 1 after the StopBaking event" in {
       donutBakingActorFSM.stateData.qty shouldEqual 1
+    }
+  }
+
+  "DonutInfoActor" should {
+    "respond back within 1000 millis" in {
+      within(1000 millis) {
+        val testActor = TestActorRef[DonutInfoActor]
+        testActor ! Info("vanilla")
+        Thread.sleep(500)
+        expectMsg(true)
+      }
     }
   }
 
