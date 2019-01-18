@@ -2,13 +2,367 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/Test.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$BakingActor$$anonfun$receive$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$BakingActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutInfoActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutInfoActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutInfoActor1$$anonfun$receive$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutInfoActor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockActor$$anonfun$receive$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockActor1$$anonfun$receive$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockActor1$$anonfun$supervisorStrategy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockActor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockWorkerActor$$anonfun$receive$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStockWorkerActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$CheckStock$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$CheckStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$Info$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$WorkerFailedException$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$DonutStoreProtocol$WorkerFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/actors/AkkaActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStockRequestActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStockRequestActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$DonutFailure$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$DonutFailure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$DonutStockRequest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$DonutStockRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$StockRequest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$DonutStoreProtocol$StockRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/dispatchers/Dispatchers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutInfoActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutInfoActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutInfoActorTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutStoreProtocol$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutStoreProtocol$Info$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutStoreProtocol$Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/DonutStoreProtocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$BakeDonut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$BakePlain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$BakeVanilla$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutBakingActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutBakingActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutBakingActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutBakingActor1$$anonfun$bake$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutBakingActor1$$anonfun$startBaking$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutBakingActor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$DonutProtocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$StopBaking$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/FSM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$AddTopping$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$BakeDonut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$BakingData$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$BakingData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$BakingEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$BakingStates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActor$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActor$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActor$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActor$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActor$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActorS$$anonfun$receive$1$$anonfun$applyOrElse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActorS$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$DonutBakingActorS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$Start$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$Stop$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$StopBaking$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/fsm/LoggingFSM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStockActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStockActor$$anonfun$supervisorStrategy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStockActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStockWorkerActor$$anonfun$receive$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStockWorkerActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$CheckStock$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$CheckStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$Info$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$WorkerFailedException$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$DonutStoreProtocol$WorkerFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/akka/routers/Routers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/DataFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/SparkSQL$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/SparkSQL$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/SparkSQL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/SparkSQL$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/dataframe/SparkSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/apachespark2/utils/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Branch$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Branch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Cons$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Cons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Leaf$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Leaf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/List$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Nil$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Nil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Tree$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/datastructures/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/Either$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/Left$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/Left.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/Right$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/Right.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/fpinscala/errorhandling/None$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/fpinscala/errorhandling/None.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/fpinscala/errorhandling/Option$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/fpinscala/errorhandling/Option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/fpinscala/errorhandling/Some$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/errorhandling/fpinscala/errorhandling/Some.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/AnonymousFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/AnonymousFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/FormatAbsAndFactorial$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/FormatAbsAndFactorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/MonomorphicBinarySearch$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/MonomorphicBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/PolymorphicFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/PolymorphicFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/TestFib$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/gettingstarted/TestFib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Cons$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Cons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Empty$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Empty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Stream$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/laziness/Stream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Actor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Examples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Node$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Future.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$$anon$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking$Par$ParOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Nonblocking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Par$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Par$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Par$ParOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Par$UnitFuture$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Par$UnitFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Par.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Strategy$$anon$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Strategy$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Strategy$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Strategy$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/parallelism/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Candy$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Candy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Coin$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Machine$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Machine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/RNG$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/RNG$Simple$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/RNG$Simple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/RNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/State$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Turn$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/fpinscala/state/Turn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM$Donut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsAM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsNZ$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsNZ$Donut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsNZ$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsNZ$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/CollectionFunctionsNZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$DonutConverstions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$DonutCostCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$DonutString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Fundamentals$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Fundamentals$Donut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Fundamentals$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Fundamentals$DonutTaste$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Fundamentals$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Fundamentals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$$anonfun$1$$anonfun$applyOrElse$1$$anonfun$applyOrElse$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$$anonfun$1$$anonfun$applyOrElse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$CoffeeBeans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$ColdWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$FilteredCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$GroundCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$UnfilteredCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$WarmWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/FutureChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Futures$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Futures$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Futures$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Futures$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Futures$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Futures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$AlphabetOrdering$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$AlphabetOrdering1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$AlphabetOrdering2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ImmutableCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Introduction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Introduction$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Introduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection$DescendingAlphabetOrdering$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection$DescendingAlphabetOrdering1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection$Donut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/MutableCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$DonutAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$DonutShoppingCartCalculator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$GlazedDonut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$GlazedDonut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$ShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$ShoppingCart2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$ShoppingCart3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$ShoppingCartItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$ShoppingCartItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$VanillaDonut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$VanillaDonut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/ObjectOriented.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$Chocolate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$Plain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$StringConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$Vanilla$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/Tricks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/package$AugmentedDonut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/package$Donut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/package$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$CakeFactory$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$Cakes$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$Cakes$Cake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$Cakes$Cupcake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$Cakes$Donut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$Cakes$UnknownCake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutInventoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutPricingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutShoppingCartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutStoreApp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutStoreAppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$DonutStoreServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$MockedDonutStoreApp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$MockedDonutStoreServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scala/raitsInjection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/allaboutscala/scalatest/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/question_tags_10K.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/questions_10K.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/tags_sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/AddSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/DbTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/DbTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/DonutStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/ExampleSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecFlat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecFree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecProp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecRef$A$u0020Set$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecRef$A$u0020Set$when$u0020empty$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecRef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSpecWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SetSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/SharedTestExampleSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/StackBehaviors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/StackSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/TVSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/TVSetSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/Append$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/Append.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/AsyncWithFixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/Clear$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/Clear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/DbServer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/DbServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/FixtureContextObjects$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/FixtureContextObjects$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/FixtureContextObjects$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/FixtureContextObjects$Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/FixtureContextObjects$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/FixtureContextObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/GetFixtureMethods$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/GetFixtureMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/GetValue$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/GetValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/LoanFixtureMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/MixingBeforeAndAfter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/OverridingWithFixture$FixtureParam$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/OverridingWithFixture$FixtureParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/OverridingWithFixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/StackingAsyncWithFixture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/StackingTraits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/StringActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/scalatest/fixtures/StringOp.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -77,19 +431,28 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="e#36#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-              <folding>
-                <element signature="e#36#65#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -172,7 +535,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Nonblocking.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Actor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Par.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" />
@@ -198,6 +560,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -318,7 +681,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547811681144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547812255182" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -510,6 +873,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26840982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -621,7 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/List.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5025">
@@ -909,17 +1272,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        <state relative-caret-position="292">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="e#36#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
