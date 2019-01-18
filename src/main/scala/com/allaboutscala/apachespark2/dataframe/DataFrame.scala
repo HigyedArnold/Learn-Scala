@@ -72,6 +72,44 @@ object DataFrame extends App with Context {
   dfQuestions.printSchema()
   dfQuestions.show(10)
 
-  //UNTIL: DataFrame Query: Operate on a filtered dataframe
+  // DataFrame Query: Operate on a sliced dataframe
+  val dfQuestionsSubset = dfQuestions.filter("score > 400 and score < 410").toDF()
+  dfQuestionsSubset.show()
 
+  // DataFrame Query: Join
+  dfQuestionsSubset.join(dfTags, "id").show(10)
+
+  // DataFrame Query: Join and select columns
+  dfQuestionsSubset
+    .join(dfTags, "id")
+    .select("owner_userid", "tag", "creation_date", "score")
+    .show(10)
+
+  // DataFrame Query: Join on explicit columns
+  dfQuestionsSubset
+    .join(dfTags, dfTags("id") === dfQuestionsSubset("id"))
+    .show(10)
+
+  // DataFrame Query: Inner Join
+  dfQuestionsSubset
+    .join(dfTags, Seq("id"), "inner")
+    .show(10)
+
+  // DataFrame Query: Left Outer Join
+  dfQuestionsSubset
+    .join(dfTags, Seq("id"), "left_outer")
+    .show(10)
+
+  // DataFrame Query: Right Outer Join
+  dfTags
+    .join(dfQuestionsSubset, Seq("id"), "right_outer")
+    .show(10)
+
+  // DataFrame Query: Distinct
+  dfTags
+    .select("tag")
+    .distinct()
+    .show(10)
+
+  // Spark SQL Introduction
 }

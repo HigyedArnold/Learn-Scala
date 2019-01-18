@@ -1,6 +1,7 @@
 package com.allaboutscala.akka.fsm
 
 import akka.actor.ActorSystem
+import scala.util.Success
 import akka.testkit.{DefaultTimeout, ImplicitSender, TestActorRef, TestFSMRef, TestKit}
 import com.allaboutscala.akka.fsm.DonutStoreProtocol.Info
 import com.allaboutscala.akka.fsm.LoggingFSM._
@@ -60,6 +61,16 @@ class DonutBakingActorFSMTests
         Thread.sleep(500)
         expectMsg(true)
       }
+    }
+  }
+
+  "Sending Ask Pattern Info(plain) message to DonutInfoActor" should {
+    "reply back with false" in {
+      import akka.pattern._
+      val testActor = TestActorRef[DonutInfoActor]
+      val result = testActor ? Info("plain")
+      val Success(reply: Boolean) = result.value.get
+      reply shouldBe false
     }
   }
 
