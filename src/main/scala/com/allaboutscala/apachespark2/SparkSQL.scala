@@ -1,7 +1,8 @@
-package com.allaboutscala.apachespark2.dataframe
+package com.allaboutscala.apachespark2
 
-import com.allaboutscala.apachespark2.utils.Context
-
+/**
+  * Created by ArnoldHigyed on 18/01/2019
+  */
 object SparkSQL extends App with Context {
 
   // Register temp table
@@ -156,5 +157,4 @@ object SparkSQL extends App with Context {
     .sql("""select id, prefix_so(tag) from so_tags""".stripMargin)
     .show(10)
 
-  //DataFrame Statistics Introduction
 }

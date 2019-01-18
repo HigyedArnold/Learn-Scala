@@ -1,6 +1,4 @@
-package com.allaboutscala.apachespark2.dataframe
-
-import com.allaboutscala.apachespark2.utils.Context
+package com.allaboutscala.apachespark2
 
 /**
   * Created by ArnoldHigyed on 17/01/2019
@@ -111,5 +109,4 @@ object DataFrame extends App with Context {
     .distinct()
     .show(10)
 
-  // Spark SQL Introduction
 }

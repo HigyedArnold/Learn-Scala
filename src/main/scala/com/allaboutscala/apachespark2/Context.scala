@@ -1,4 +1,4 @@
-package com.allaboutscala.apachespark2.utils
+package com.allaboutscala.apachespark2
 
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
