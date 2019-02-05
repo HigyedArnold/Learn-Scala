@@ -9,7 +9,7 @@ import scala.concurrent.Future
 /**
   * Created by ArnoldHigyed on 5/12/2018
   */
-class AsyncWithFixture extends AsyncFlatSpec {
+class AsyncWithFixture extends AsyncFunSuite {
 
  override def withFixture(test: NoArgAsyncTest) = {
 
@@ -22,12 +22,11 @@ class AsyncWithFixture extends AsyncFlatSpec {
 
  def addSoon(addends: Int*): Future[Int] = Future { addends.sum }
 
- "This test" should "succeed" in {
-  addSoon(1, 1) map { sum => assert(sum == 2) }
+ test("This test should succeed") {
+  addSoon(1, 1) map { sum => assert(sum === 2) }
  }
 
- it should "fail" in {
-  addSoon(1, 1) map { sum => assert(sum == 3) }
+ test("This test should fail") {
+  addSoon(1, 1) map { sum => assert(sum === 3) }
  }
-
 }

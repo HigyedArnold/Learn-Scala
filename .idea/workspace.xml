@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_8_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_8_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/allaboutscala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/allaboutscala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameOperations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameOperations.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f003e51f9aeb64af5d2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f003e51f9aeb64af5d2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f003e51f9aeb64af5d2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learn-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learn-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learn-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learn-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learn-scala-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -29,6 +54,28 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="allaboutscala" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="allaboutscala" type="f1a62948:ProjectNode" />
+                <item name="allaboutscala" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="allaboutscala" type="f1a62948:ProjectNode" />
+                <item name="allaboutscala" type="2d1252cf:ModuleNode" />
+                <item name="sbt tasks" type="d9357504:SbtViewContributor$SbtTasksGroupNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="allaboutscala" type="f1a62948:ProjectNode" />
+                <item name="allaboutscala-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="allaboutscala" type="f1a62948:ProjectNode" />
+                <item name="allaboutscala-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -37,7 +84,20 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#37#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +138,8 @@
       <find>database</find>
       <find>tableType</find>
       <find>so_tags</find>
+      <find>fold</find>
+      <find>dispatcher</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -92,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/testkit/TestActorFSM.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctionsNZ.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/LoggingFSM.scala" />
@@ -114,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Par.scala" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/DbServer.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/FixtureContextObjects.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/GetFixtureMethods.scala" />
@@ -130,11 +190,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/StackSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/Tests.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/TestStyles.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/utils/Context.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutInfoActorTests.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala" />
@@ -143,6 +200,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/Context.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameStatistics.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameOperations.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala" />
       </list>
     </option>
   </component>
@@ -153,9 +215,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1924" />
-    <option name="width" value="1272" />
-    <option name="height" value="796" />
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,8 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,14 +235,62 @@
               <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547817964091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549365191917" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -205,13 +313,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataFrameOperations">
-    <configuration name="DataFrame" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.apachespark2.DataFrame" />
+  <component name="RunManager" selected="Application.AkkaHttpServer">
+    <configuration name="AkkaHttpServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.akka.http.AkkaHttpServer" />
       <module name="allaboutscala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allaboutscala.apachespark2.*" />
+          <option name="PATTERN" value="com.allaboutscala.akka.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,41 +327,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataFrameOperations" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.apachespark2.DataFrameOperations" />
+    <configuration name="AsyncWithFixture" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="allaboutscala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allaboutscala.apachespark2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <setting name="path" value="scalatest.fixtures.AsyncWithFixture" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="scalatest.fixtures.AsyncWithFixture" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataFrameStatistics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.apachespark2.DataFrameStatistics" />
+    <configuration name="AsyncWithFixture.This test should succeed&#10;This test should fail" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="allaboutscala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allaboutscala.apachespark2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparkSQL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.allaboutscala.apachespark2.SparkSQL" />
-      <module name="allaboutscala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allaboutscala.apachespark2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <setting name="path" value="scalatest.fixtures.AsyncWithFixture" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="scalatest.fixtures.AsyncWithFixture" />
+      <setting name="testName" value="This test should succeed&#10;This test should fail" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,13 +379,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DonutBakingActorFSMTests.Sending a Random Donut message to DonutInfoActor should throw IllegalStateException" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="allaboutscala" />
+      <setting name="path" value="com.allaboutscala.akka.fsm.DonutBakingActorFSMTests" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.allaboutscala.akka.fsm.DonutBakingActorFSMTests" />
+      <setting name="testName" value="Sending a Random Donut message to DonutInfoActor should throw IllegalStateException" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataFrameOperations" />
-        <item itemvalue="Application.DataFrameStatistics" />
-        <item itemvalue="Application.SparkSQL" />
-        <item itemvalue="Application.DataFrame" />
+        <item itemvalue="Application.AkkaHttpServer" />
         <item itemvalue="ScalaTest.DonutBakingActorFSMTests" />
+        <item itemvalue="ScalaTest.DonutBakingActorFSMTests.Sending a Random Donut message to DonutInfoActor should throw IllegalStateException" />
+        <item itemvalue="ScalaTest.AsyncWithFixture" />
+        <item itemvalue="ScalaTest.AsyncWithFixture.This test should succeed&#10;This test should fail" />
       </list>
     </recent_temporary>
   </component>
@@ -312,8 +434,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3092404509000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="234066951" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1961922551" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2125951362" />
       </map>
     </option>
@@ -332,41 +453,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DonutBakingActorFSMTests - 2018.12.12 at 09h 10m 22s.xml">
-      <configuration name="DonutBakingActorFSMTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture_This_test_should_succeed_This_test_should_fail - 2019.01.23 at 13h 23m 23s.xml">
+      <configuration name="AsyncWithFixture.This test should succeed&#10;This test should fail" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests - 2018.12.12 at 10h 37m 49s.xml">
-      <configuration name="DonutBakingActorFSMTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture_This_test_should_succeed_This_test_should_fail - 2019.01.23 at 13h 23m 35s.xml">
+      <configuration name="AsyncWithFixture.This test should succeed&#10;This test should fail" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="SetSpecFlat - 2018.12.13 at 10h 09m 01s.xml">
-      <configuration name="SetSpecFlat" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture - 2019.01.23 at 13h 26m 13s.xml">
+      <configuration name="AsyncWithFixture" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests_DonutBakingActor_should_process_StopBaking_event_and_switch_to_BakingStates_Stop_state - 2018.12.14 at 09h 58m 34s.xml">
-      <configuration name="DonutBakingActorFSMTests.DonutBakingActor should process StopBaking event and switch to BakingStates.Stop state" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture - 2019.01.23 at 13h 29m 58s.xml">
+      <configuration name="AsyncWithFixture" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutInfoActorTests - 2018.12.19 at 09h 11m 12s.xml">
-      <configuration name="DonutInfoActorTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture - 2019.01.23 at 13h 30m 59s.xml">
+      <configuration name="AsyncWithFixture" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests - 2019.01.17 at 10h 57m 45s.xml">
-      <configuration name="DonutBakingActorFSMTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture - 2019.01.23 at 13h 31m 25s.xml">
+      <configuration name="AsyncWithFixture" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests_DonutInfoActor_should_respond_back_within_100_millis - 2019.01.17 at 11h 13m 03s.xml">
-      <configuration name="DonutBakingActorFSMTests.DonutInfoActor should respond back within 100 millis" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture - 2019.01.23 at 13h 31m 31s.xml">
+      <configuration name="AsyncWithFixture" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests - 2019.01.17 at 11h 13m 28s.xml">
-      <configuration name="DonutBakingActorFSMTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AsyncWithFixture - 2019.01.23 at 13h 31m 35s.xml">
+      <configuration name="AsyncWithFixture" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests - 2019.01.17 at 11h 13m 45s.xml">
-      <configuration name="DonutBakingActorFSMTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DonutBakingActorFSMTests_Sending_a_Random_Donut_message_to_DonutInfoActor_should_throw_IllegalStateException - 2019.02.05 at 12h 00m 09s.xml">
+      <configuration name="DonutBakingActorFSMTests.Sending a Random Donut message to DonutInfoActor should throw IllegalStateException" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DonutBakingActorFSMTests - 2019.01.17 at 17h 33m 39s.xml">
+    <history-entry file="DonutBakingActorFSMTests - 2019.02.05 at 12h 00m 16s.xml">
       <configuration name="DonutBakingActorFSMTests" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1200" extended-state="6" />
+    <frame x="1916" y="0" width="1928" height="1204" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26840982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20437567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -376,21 +507,21 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43656716" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45149255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39925373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929105" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.34048507" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32929105" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32742536" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32929105" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32742536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="sbt" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="sbt" order="3" visible="true" weight="0.18783352" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -398,6 +529,7 @@
       <window_info anchor="right" id="Maven" order="8" side_tool="true" weight="0.32977587" />
       <window_info anchor="right" id="Ant Build" order="9" side_tool="true" weight="0.2497332" />
       <window_info active="true" anchor="right" x="0" y="0" width="430" height="1000" id="Documentation" order="10" side_tool="true" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="LuaJ" order="11" />
     </layout>
   </component>
   <component name="WorksheetDefaultProjectSettings">
@@ -409,52 +541,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="645" column="20" selection-start-line="645" selection-start-column="20" selection-end-line="645" selection-end-column="20" />
-          <folding>
-            <element signature="e#23916#23917#0" expanded="true" />
-            <element signature="e#23959#23960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ImmutableCollection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5025">
-          <caret line="335" column="1" lean-forward="true" selection-start-line="335" selection-start-column="1" selection-end-line="335" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Actor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Nonblocking.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/gettingstarted/GettingStarted.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3270">
@@ -469,24 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Par.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/MixingBeforeAndAfter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -620,21 +692,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/question_tags_10K.csv">
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/questions_10K.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/questions_10K.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,30 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/actors/AkkaActor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2685">
           <caret line="188" column="61" selection-start-line="188" selection-start-column="61" selection-end-line="188" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalatest/Stack.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutInfoActorTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#36#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,47 +750,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#36#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/utils/Context.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#46#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/utils/Context.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/Context.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -774,6 +788,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="191" column="12" lean-forward="true" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="e#28#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Option.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4975">
+          <caret line="335" column="1" lean-forward="true" selection-start-line="335" selection-start-column="1" selection-end-line="335" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Par.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1169">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalatest/Stack.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutInfoActorTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding>
+            <element signature="e#36#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.directory">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#37#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
