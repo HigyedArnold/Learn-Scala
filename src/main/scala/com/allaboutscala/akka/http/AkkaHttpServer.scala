@@ -10,6 +10,9 @@ import akka.http.scaladsl.server.Route
 import scala.io.StdIn
 import scala.util.{Failure, Success}
 
+/**
+  * Created by ArnoldHigyed on 05/02/2019
+  */
 object AkkaHttpServer extends App with LazyLogging {
 
   implicit val system = ActorSystem("akka-http-rest-server")
@@ -20,10 +23,14 @@ object AkkaHttpServer extends App with LazyLogging {
   val host = "127.0.0.1"
   val port = 8080
 
-  val routes: Route =
-    get {
-      complete("Akka HTTP Server is UP.")
-    }
+  // routes
+  val serverUpRoute: Route = get {
+    complete("Akka HTTP Server is UP.")
+  }
+
+  val serverVersion = new ServerVersion()
+  val serverVersionRoute = serverVersion.route()
+  val routes: Route =  serverVersionRoute ~ serverUpRoute
 
   val httpServerFuture = Http().bindAndHandle(routes, host, port)
   httpServerFuture.onComplete {
