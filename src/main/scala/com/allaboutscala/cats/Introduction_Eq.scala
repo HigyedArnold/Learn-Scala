@@ -9,6 +9,9 @@ import cats.syntax.option._ // for some and none
 import cats.syntax.eq._ // for === and =!=
 import java.util.Date
 
+/**
+  * Created by ArnoldHigyed on 06/02/2019
+  */
 object Introduction_Eq extends App {
 
   val eqInt = Eq[Int]
