@@ -173,6 +173,6 @@ object Monads extends App {
   foldRight((1 to 100000).toList, 0L)(_ + _)
   // res22: Long = 5000050000
 
-  
+
 
 }
