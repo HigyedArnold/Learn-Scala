@@ -7,3 +7,5 @@ Learning ScalaTest from: http://www.scalatest.org/user_guide .
 Learning functional programming from: Functional Programming in Scala.
 
 Learning scala categories from: Scala with Cats.
+
+Well defined .gitignore and .scalafmt.conf added.
