@@ -1,13 +1,13 @@
 package com.allaboutscala.akka.fsm
 
 import akka.actor.ActorSystem
-import scala.util.Success
 import akka.testkit.{DefaultTimeout, ImplicitSender, TestActorRef, TestFSMRef, TestKit}
 import com.allaboutscala.akka.fsm.DonutStoreProtocol.Info
 import com.allaboutscala.akka.fsm.LoggingFSM._
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
 
 import scala.concurrent.duration._
+import scala.util.Success
 
 /**
   * Created by ArnoldHigyed on 06/12/2018

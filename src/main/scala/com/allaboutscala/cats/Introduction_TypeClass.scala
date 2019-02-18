@@ -44,8 +44,8 @@ object JsonSyntax {
 
 object Introduction_TypeClass extends App {
 
-  import JsonWriterInstances._
   import JsonSyntax._
+  import JsonWriterInstances._
 
   println(Person("Dave", "dave@example.com").toJson)
   println(implicitly[JsonWriter[String]]) // -> implicitly is a good fallback for debugging purposes

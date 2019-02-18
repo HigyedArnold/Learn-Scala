@@ -2,10 +2,10 @@ package com.allaboutscala.akka.http
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
-import akka.stream.ActorMaterializer
-import com.typesafe.scalalogging.LazyLogging
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
+import akka.stream.ActorMaterializer
+import com.typesafe.scalalogging.LazyLogging
 
 import scala.io.StdIn
 import scala.util.{Failure, Success}

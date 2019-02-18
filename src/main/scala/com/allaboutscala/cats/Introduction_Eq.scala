@@ -1,13 +1,14 @@
 package com.allaboutscala.cats
 
-import cats.Eq
-import cats.instances.int._ // for Eq
-import cats.instances.option._ // for Eq
-import cats.instances.long._ // for Eq
-import cats.instances.string._ // for Eq
-import cats.syntax.option._ // for some and none
-import cats.syntax.eq._ // for === and =!=
 import java.util.Date
+
+import cats.Eq
+import cats.instances.int._
+import cats.instances.long._
+import cats.instances.option._
+import cats.instances.string._
+import cats.syntax.eq._
+import cats.syntax.option._
 
 /**
   * Created by ArnoldHigyed on 06/02/2019

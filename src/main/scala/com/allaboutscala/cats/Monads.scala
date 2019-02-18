@@ -1,14 +1,14 @@
 package com.allaboutscala.cats
 
-import cats.Monad
-import cats.instances.option._ // for Monad
-import cats.instances.list._ // for Monad
-import cats.instances.future._ // for Monad
+import cats.{Eval, Monad}
+import cats.instances.future._
+import cats.instances.list._
+import cats.instances.option._
 import cats.syntax.either._
-import cats.Eval
+
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by ArnoldHigyed on 06/02/2019

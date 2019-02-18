@@ -1,9 +1,9 @@
 package com.allaboutscala.cats
 
 import cats.Functor
-import cats.syntax.functor._
-import cats.instances.list._ // for Functor
-import cats.instances.option._ // for Functor
+import cats.instances.list._
+import cats.instances.option._
+import cats.syntax.functor._ // for Functor
 
 /**
   * Created by ArnoldHigyed on 06/02/2019
