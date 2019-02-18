@@ -30,6 +30,8 @@ object Monoids extends App {
   def identityLaw[A](x: A)(implicit m: Monoid[A]): Boolean =
     (m.combine(x, m.empty) == x) && (m.combine(m.empty, x) == x)
 
+  /** -------------------------------------------------------------------------------------------------------------- **/
+
   /**
     * Boolean
     */
@@ -52,6 +54,8 @@ object Monoids extends App {
     override def combine(x: Boolean, y: Boolean): Boolean = (!x || y) && (x || !y)
     override def empty: Boolean = true
   }
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
 
   /**
     * Set
@@ -76,6 +80,8 @@ object Monoids extends App {
 //  // res2: Set[Int] = Set(1, 2, 3)
 //  strSetMonoid.combine(Set("A", "B"), Set("B", "C"))
 //  // res3: Set[String] = Set(A, B, C)
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
 
   /**
     * Adding all the things

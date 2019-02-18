@@ -18,6 +18,8 @@ object Functors extends App {
   val liftedFunc = Functor[Option].lift(func)
   liftedFunc(Option(1))
 
+  /** -------------------------------------------------------------------------------------------------------------- **/
+
   /**
     * map
     */
@@ -44,6 +46,8 @@ object Functors extends App {
 
   println(Tree.leaf(100).map(_ * 2))
   println(Tree.branch(Tree.leaf(10), Tree.leaf(20)).map(_ * 2))
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
 
   /**
     * contramap
@@ -83,6 +87,8 @@ object Functors extends App {
 
   println(format(Box("hello world")))
   println(format(Box(true)))
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
 
   /**
     * imap

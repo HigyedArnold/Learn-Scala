@@ -3,8 +3,12 @@ package com.allaboutscala.cats
 import cats.instances.future._
 import cats.instances.list._
 import cats.instances.option._
+import cats.instances.vector._
 import cats.syntax.either._
 import cats.{Eval, Monad}
+import cats.data.{Writer, WriterT}
+import cats.syntax.writer._ // for tell
+import cats.syntax.applicative._ // for pure
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
@@ -51,6 +55,12 @@ object Monads extends App {
   val future = fm.flatMap(fm.pure(1))(x => fm.pure(x + 2))
   println(Await.result(future, 1.second))
 
+  /** -------------------------------------------------------------------------------------------------------------- **/
+
+  /**
+    * Identity Monad
+    */
+
   import cats.Id
   def pure[A](value: A): Id[A] = value
   def map[A, B](initial: Id[A])(func: A => B): Id[B] = func(initial)
@@ -58,7 +68,7 @@ object Monads extends App {
 
   "Error".asLeft[Int].getOrElse(0)
   "Error".asLeft[Int].orElse(2.asRight[String])
-  -1.asRight[String].ensure("Must be non-negative!")(_ > 0)
+  (-1).asRight[String].ensure("Must be non-negative!")(_ > 0)
   "error".asLeft[Int].recover {
     case str: String => -1
   }
@@ -76,6 +86,12 @@ object Monads extends App {
     c <- if(b == 0) "DIV0".asLeft[Int]
     else (a / b).asRight[String]
   } yield c * 100
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
+
+  /**
+    * Error Handling
+    */
 
   sealed trait LoginError extends Product with Serializable
   final case class UserNotFound(username: String) extends LoginError
@@ -112,6 +128,12 @@ object Monads extends App {
     // failing if the predicate is not satisfied:
     def ensure[A](fa: F[A])(e: E)(f: A => Boolean): F[A]
   }
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
+
+  /**
+    * Eval Monad
+    */
 
   val now = Eval.now(math.random + 1000)
   // now: cats.Eval[Double] = Now(1000.5473732231594)
@@ -170,9 +192,88 @@ object Monads extends App {
     foldRightEval(as, Eval.now(acc)) { (a, b) =>
       b.map(fn(a, _))
     }.value
+
   foldRight((1 to 100000).toList, 0L)(_ + _)
   // res22: Long = 5000050000
 
+  /** -------------------------------------------------------------------------------------------------------------- **/
 
+  /**
+    * Writer Monad
+    */
+
+  Writer(Vector(
+    "It was the best of times",
+    "it was the worst of times"
+  ), 1859)
+  // res0: cats.data.WriterT[cats.Id,scala.collection.immutable.Vector[String],Int] =
+  // WriterT((Vector(It was the best of times, it wasthe worst of times),1859))
+
+  type Writer[W, A] = WriterT[Id, W, A]
+  type Logged[A] = Writer[Vector[String], A]
+
+  123.pure[Logged]
+  // res2: Logged[Int] = WriterT((Vector(),123))
+
+  Vector("msg1", "msg2", "msg3").tell
+  // res3: cats.data.Writer[scala.collection.immutable.Vector[String], Unit] = WriterT((Vector(msg1, msg2, msg3),()))
+
+  val a = Writer(Vector("msg1", "msg2", "msg3"), 123)
+  // a: cats.data.WriterT[cats.Id,scala.collection.immutable.Vector[String],Int] = WriterT((Vector(msg1, msg2, msg3),123))
+  val b = 123.writer(Vector("msg1", "msg2", "msg3"))
+    // b: cats.data.Writer[scala.collection.immutable.Vector[String],Int] = WriterT((Vector(msg1, msg2, msg3),123))
+
+  val aResult: Int = a.value
+  // aResult: Int = 123
+  val aLog: Vector[String] = a.written
+  // aLog: Vector[String] = Vector(msg1, msg2, msg3)
+  val (log, result) = b.run
+  // log: scala.collection.immutable.Vector[String] = Vector(msg1, msg2, msg3)
+  // result: Int = 123
+
+  val writer1 = for {
+    a <- 10.pure[Logged]
+    _ <- Vector("a", "b", "c").tell
+    b <- 32.writer(Vector("x", "y", "z"))
+  } yield a + b
+  // writer1: cats.data.WriterT[cats.Id,Vector[String],Int] = WriterT((Vector(a, b, c, x, y, z),42)) writer1.run
+  // res4: cats.Id[(Vector[String], Int)] = (Vector(a, b, c, x, y, z), 42)
+  writer1.run
+  // res4: cats.Id[(Vector[String], Int)] = (Vector(a, b, c, x, y, z), 42)
+
+  val writer2 = writer1.mapWritten(_.map(_.toUpperCase))
+  // writer2: cats.data.WriterT[cats.Id,scala.collection.immutable.Vector[String],Int] = WriterT((Vector(A, B, C, X, Y, Z),42))
+  writer2.run
+  // res5: cats.Id[(scala.collection.immutable.Vector[String], Int)] = (Vector(A, B, C, X, Y, Z),42)
+
+  val writer3 = writer1.bimap(
+    log => log.map(_.toUpperCase),
+    res => res * 100
+  )
+  // writer3: cats.data.WriterT[cats.Id,scala.collection.immutable. Vector[String],Int] = WriterT((Vector(A, B, C, X, Y, Z),4200))
+
+  val writer4 = writer1.mapBoth { (log, res) =>
+    val log2 = log.map(_ + "!")
+    val res2 = res * 1000
+    (log2, res2)
+  }
+  // writer4: cats.data.WriterT[cats.Id,scala.collection.immutable. Vector[String],Int] = WriterT((Vector(a!, b!, c!, x!, y!, z!) ,42000))
+
+  val writer5 = writer1.reset
+  // writer5: cats.data.WriterT[cats.Id,Vector[String],Int] = WriterT((Vector(),42))
+  writer5.run
+  // res8: cats.Id[(Vector[String], Int)] = (Vector(),42)
+  val writer6 = writer1.swap
+  // writer6: cats.data.WriterT[cats.Id,Int,Vector[String]] = WriterT((42,Vector(a, b, c, x, y, z)))
+  writer6.run
+  // res9: cats.Id[(Int, Vector[String])] = (42,Vector(a, b, c, x, y, z))
+
+
+
+  /** -------------------------------------------------------------------------------------------------------------- **/
+
+  /**
+    * Reader Monad
+    */
 
 }
