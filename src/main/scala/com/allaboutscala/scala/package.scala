@@ -10,7 +10,6 @@ package object scala {
     * @param price
     * @param productCode
     */
-  case class Donut(name: String, price: Double, productCode: Option[Long] = None)
 
   println("\nStep 3: How to define an implicit class to augment or extend the Donut object with a uuid field")
   implicit class AugmentedDonut(donut: Donut) {

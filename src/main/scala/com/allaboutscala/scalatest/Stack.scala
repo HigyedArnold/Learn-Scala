@@ -10,7 +10,7 @@ class Stack[T] {
   val MAX = 10
   private val buf = new ListBuffer[T]
 
-  def push(o: T) {
+  def push(o: T): Unit = {
     if (!full)
       buf.prepend(o)
     else

@@ -1,10 +1,10 @@
 package com.allaboutscala.cats
 
-import cats.{Eval, Monad}
 import cats.instances.future._
 import cats.instances.list._
 import cats.instances.option._
 import cats.syntax.either._
+import cats.{Eval, Monad}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
