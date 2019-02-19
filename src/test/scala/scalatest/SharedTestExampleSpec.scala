@@ -1,6 +1,5 @@
 package scalatest
 
-import com.allaboutscala.scalatest.Stack
 import org.scalatest.FlatSpec
 
 /**

@@ -2,14 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/allaboutscala/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Functors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Functors.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_TypeClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_TypeClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monads.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monads.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monoids.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monoids.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/actors/AkkaActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/dispatchers/Dispatchers.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutInfoActorTests.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/FSM.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/LoggingFSM.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpRestServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/ServerVersionRoute.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/CollectionFunctionsAM.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/CollectionFunctionsNZ.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Donut.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Functions.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Fundamentals.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/FutureChain.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Futures.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/ImmutableCollection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Introduction.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/MutableCollection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/ObjectOriented.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/TraitsInjection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Tricks.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/package.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/Context.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrame.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameOperations.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameStatistics.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/SparkSQL.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Functors.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_Cats.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_Eq.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_Printable.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_TypeClass.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monads.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monoids.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/List.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/Tree.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Either.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Option.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/gettingstarted/GettingStarted.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/laziness/Stream.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Actor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Nonblocking.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Par.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalatest/Stack.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/SharedTestExampleSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/scalatest/SharedTestExampleSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/StackBehaviors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/scalatest/StackBehaviors.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/StackSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/scalatest/StackSpec.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -43,15 +91,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monads.scala">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/akka/actors/AkkaActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+            <state relative-caret-position="225">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
-                <element signature="e#32#62#0" expanded="true" />
+                <element signature="e#39#95#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/allaboutscala/ObjectOriented.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
         </entry>
@@ -64,12 +121,12 @@
         <option value="Scala Worksheet" />
         <option value="Scala Object" />
         <option value="Scala Trait" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>match</find>
       <find>case</find>
       <find>case class</find>
       <find>enum</find>
@@ -99,6 +156,7 @@
       <find>fold</find>
       <find>dispatcher</find>
       <find>sealed tr</find>
+      <find>com.allaboutscala</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -113,57 +171,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/DbServer.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/FixtureContextObjects.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/GetFixtureMethods.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/LoanFixtureMethods.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/MixingBeforeAndAfter.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/OverridingWithFixture.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/StackingAsyncWithFixture.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/StackingTraits.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/AddSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/ExampleSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/SharedTestExampleSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/actors/AkkaActor.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/StackBehaviors.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scalatest/StackSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/Tests.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/TestStyles.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/utils/Context.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutInfoActorTests.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/DataFrame.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/dataframe/SparkSQL.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/SparkSQL.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrame.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/Context.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameStatistics.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/apachespark2/DataFrameOperations.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Main.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_PrintableLib.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_Cats.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_Eq.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monoids_Monoid.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_Printable.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/ServerVersion.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/ServerVersionRoute.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpServer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/http/AkkaHttpRestServer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Functions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalatest/Stack.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Actor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Donut.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Introduction_TypeClass.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Functors.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monoids.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monads.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/scalatest/SharedTestExampleSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/state/State.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/laziness/Stream.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Par.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Actor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Nonblocking.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/errorhandling/Option.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/errorhandling/Either.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/Tree.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/gettingstarted/GettingStarted.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/fsm/FSM.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/fsm/LoggingFSM.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/fsm/DonutBakingActorFSMTests.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/fsm/DonutInfoActorTests.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/http/AkkaHttpServer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/http/AkkaHttpRestServer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/http/ServerVersionRoute.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/routers/Routers.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/akka/dispatchers/Dispatchers.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Introduction_Printable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Introduction_Cats.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Introduction_Eq.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Monads.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Introduction_TypeClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Functors.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cats/Monoids.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/apachespark2/DataFrameStatistics.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/apachespark2/SparkSQL.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/apachespark2/Context.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/apachespark2/DataFrame.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/apachespark2/DataFrameOperations.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/Donut.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/ImmutableCollection.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/FutureChain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/Functions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/CollectionFunctionsNZ.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/CollectionFunctionsAM.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/MutableCollection.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/Introduction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/Futures.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/TraitsInjection.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/Fundamentals.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/Tricks.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scalatest/Stack.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/allaboutscala/ObjectOriented.scala" />
       </list>
     </option>
   </component>
@@ -173,7 +231,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="width" value="1920" />
     <option name="height" value="1200" />
@@ -187,6 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,7 +278,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="actors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
@@ -228,17 +296,45 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="allaboutscala" type="462c0819:PsiDirectoryNode" />
-              <item name="cats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scalatest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scalatest" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550504139703" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550568435700" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -431,7 +527,7 @@
     <frame x="1920" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18783352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18996799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -451,7 +547,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32742536" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.31809703" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3386194" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3386194" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -515,59 +611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/errorhandling/Option.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/datastructures/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4975">
-          <caret line="335" column="1" lean-forward="true" selection-start-line="335" selection-start-column="1" selection-end-line="335" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/state/State.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Par.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutInfoActorTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#36#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/DonutBakingActorFSMTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-          <folding>
-            <element signature="e#36#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.directory" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/routers/Routers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/scriptFile.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.4.0-sources.jar!/cats/Functor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -644,84 +687,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/package.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctionsAM.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/CollectionFunctionsAM.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/CollectionFunctionsNZ.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/CollectionFunctionsNZ.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Donut.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Donut.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Functions.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="316" column="89" selection-start-line="316" selection-start-column="89" selection-end-line="316" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Fundamentals.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Fundamentals.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/FutureChain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/FutureChain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Futures.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Futures.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ImmutableCollection.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/ImmutableCollection.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Introduction.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Introduction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/MutableCollection.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/MutableCollection.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/Tricks.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Tricks.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="88" column="47" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="78" />
@@ -738,14 +781,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/TraitsInjection.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/TraitsInjection.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="302" column="72" selection-start-line="302" selection-start-column="72" selection-end-line="302" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scala/ObjectOriented.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/ObjectOriented.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
@@ -769,21 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -792,9 +820,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -860,13 +885,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/Test.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/cats/Monads.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+        <state relative-caret-position="230">
+          <caret line="276" column="22" lean-forward="true" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
           <folding>
             <element signature="e#32#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/FixtureContextObjects.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/GetFixtureMethods.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/MixingBeforeAndAfter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scalatest/fixtures/OverridingWithFixture.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#28#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/akka/actors/AkkaActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#39#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/allaboutscala/Futures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/allaboutscala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/allaboutscala/ObjectOriented.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
         </state>
       </provider>
     </entry>
