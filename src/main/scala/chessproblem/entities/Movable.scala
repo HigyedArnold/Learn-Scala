@@ -1,11 +1,6 @@
 package chessproblem.entities
 
-abstract class Movable(x: Int, y: Int) {
-
-  /**
-    * The position of a chess piece on the chess table.
-    */
-  val position: Position = Position(x, y)
+abstract class Movable(position: Position) {
 
   /**
     * BACKCHECK -> NEGATIVE to ASSURE, on false if fine
@@ -35,7 +30,7 @@ abstract class Movable(x: Int, y: Int) {
     * @param p as position
     * @return
     */
-  abstract def check(p: Position): Boolean
+  def check(p: Position): Boolean
 
   override def toString: String =
     "(" + position.x + ", " + position.y + ")"

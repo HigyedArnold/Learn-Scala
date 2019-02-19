@@ -1,6 +1,6 @@
 package chessproblem.entities
 
-class King(x:Int, y: Int) extends Movable(x:Int, y: Int) {
+class King(position: Position) extends Movable(position: Position) {
 
   override def check(p: Position): Boolean =
     p.x == position.x ||
