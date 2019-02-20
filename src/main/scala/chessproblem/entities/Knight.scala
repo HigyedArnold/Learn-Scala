@@ -1,10 +1,13 @@
 package chessproblem.entities
 
-class Knight(position: Position) extends Movable(position: Position) {
+class Knight(pos: Position) extends Movable(pos) {
+
+  override def name: String = "Knight"
 
   override def check(p: Position): Boolean =
-    p.x == position.x ||
-    p.y == position.y ||
-    Math.abs(p.x - position.x) == Math.abs(p.y - position.y)
+  // self
+    p == position ||
+    (Math.abs(p.x - position.x) == 2 &&  Math.abs(p.y - position.y) == 1) ||
+    (Math.abs(p.x - position.x) == 1 &&  Math.abs(p.y - position.y) == 2)
 
 }
