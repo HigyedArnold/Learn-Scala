@@ -44,14 +44,14 @@ object Solver extends App {
     // -> invalid piece
     //    -> rec
 
-    val solutions = rec(chessTable, 0, pieces, Vector.empty[Movable])
+    val solutions = rec(chessTable, 0, pieces, Vector.empty[ChessPiece])
 
     Timer.print(Timer.stop(started), TimerType.SEC)
     println("Raw solutions: " + solutions)
     println("Unique solutions: " + solutions / uniqueCoef)
   }
 
-  def rec(chessTable: Vector[Position], chessIndex: Int, pieces: Vector[ChessPieceType], onPieces: Vector[Movable]): Int = {
+  def rec(chessTable: Vector[Position], chessIndex: Int, pieces: Vector[ChessPieceType], onPieces: Vector[ChessPiece]): Int = {
     // -> Stop succes: no more pieces
     if(pieces.isEmpty) {
       // print the pieces position

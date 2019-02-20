@@ -1,6 +1,6 @@
 package chessproblem.entities
 
-class King(pos: Position) extends Movable(pos) {
+class King(pos: Position) extends ChessPiece(pos) {
 
   override def name: String = "King"
 

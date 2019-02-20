@@ -1,6 +1,6 @@
 package chessproblem.entities
 
-abstract class Movable(pos: Position) {
+abstract class ChessPiece(pos: Position) {
 
   val position: Position = pos
 
@@ -12,13 +12,13 @@ abstract class Movable(pos: Position) {
     * @param pieces a vector of chess pieces already on the chess table
     * @return boolean signalling if the position is conflicting or not
     */
-  def validate(pieces: Vector[Movable]): Boolean = {
+  def validate(pieces: Vector[ChessPiece]): Boolean = {
     if (pieces.isEmpty) {
       false
     }
     else {
       (for {
-        res <- pieces.map((piece: Movable) => check(piece.position))
+        res <- pieces.map((piece: ChessPiece) => check(piece.position))
       } yield res)
         .fold(false)(_ || _)
     }
