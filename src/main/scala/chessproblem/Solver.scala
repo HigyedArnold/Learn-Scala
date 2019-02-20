@@ -27,6 +27,8 @@ object Solver extends App {
     //    println(pieces)
     //    println(chessTable)
     //    println(chessTable.size)
+    val uniqueCoef = Util.uniqueCoef(pieces)
+    //    println(coef)
 
     val started = Timer.start
 
@@ -45,7 +47,8 @@ object Solver extends App {
     val solutions = rec(chessTable, 0, pieces, Vector.empty[Movable])
 
     Timer.print(Timer.stop(started), TimerType.SEC)
-    println(solutions)
+    println("Raw solutions: " + solutions)
+    println("Unique solutions: " + solutions / uniqueCoef)
   }
 
   def rec(chessTable: Vector[Position], chessIndex: Int, pieces: Vector[ChessPieceType], onPieces: Vector[Movable]): Int = {
