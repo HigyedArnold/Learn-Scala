@@ -2,13 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3c267b-d9e7-4802-b5ca-3a6b4b5587d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/Solver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/Solver.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Bishop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Bishop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/King.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/King.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Knight.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Knight.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Movable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/ChessPiece.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Queen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Queen.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Rook.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Rook.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Test.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/CollectionFunctionsAM.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/CollectionFunctionsNZ.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/Donut.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/Functions.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/Fundamentals.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/FutureChain.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/Futures.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/ImmutableCollection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/Introduction.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/MutableCollection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/ObjectOriented.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/TraitsInjection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/Tricks.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/allaboutscala/package.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/apachespark2/Context.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/apachespark2/DataFrame.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/apachespark2/DataFrameOperations.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/apachespark2/DataFrameStatistics.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/apachespark2/SparkSQL.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Functors.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Introduction_Cats.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Introduction_Eq.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Introduction_Printable.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Introduction_TypeClass.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Monads.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cats/Monoids.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/Solver.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/core/Util.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Bishop.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/ChessPiece.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/King.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Knight.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Position.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Queen.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Rook.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chessproblem/timer/Timer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/Tree.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/errorhandling/Either.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/errorhandling/Option.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/gettingstarted/GettingStarted.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/laziness/Stream.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Actor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Nonblocking.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Par.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/state/State.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalatest/Stack.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/AddSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/ExampleSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/SharedTestExampleSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/StackBehaviors.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/StackSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/TestStyles.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/Tests.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/AsyncWithFixture.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/DbServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/FixtureContextObjects.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/GetFixtureMethods.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/LoanFixtureMethods.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/MixingBeforeAndAfter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/OverridingWithFixture.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/StackingAsyncWithFixture.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/scalatest/fixtures/StackingTraits.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -18,6 +78,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -42,7 +106,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Nonblocking.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fpinscala/errorhandling/Option.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fpinscala/errorhandling/Either.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/Tree.scala" />
@@ -151,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/chessproblem/Solver.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chessproblem/entities/Movable.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chessproblem/entities/ChessPiece.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
       </list>
     </option>
   </component>
@@ -161,10 +235,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1168" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -175,6 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,15 +257,85 @@
               <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="actors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="dispatchers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="fsm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allaboutscala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="akka" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550683716440" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -316,10 +461,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4651802432967" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="4056909568" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="2125951362" />
-        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="991977966" />
+        <entry key="$PROJECT_DIR$" value="4688772456000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3865788860" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3029178416" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="522652155" />
       </map>
     </option>
   </component>
@@ -378,9 +523,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-4" y="0" width="1928" height="1168" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19743863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -464,15 +610,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.scalafmt.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/scalatest/Stack.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/fpinscala/parallelism/Actor.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/package.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/CollectionFunctionsAM.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/CollectionFunctionsNZ.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Donut.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Functions.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/Fundamentals.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/allaboutscala/FutureChain.scala" />
@@ -487,13 +624,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/allaboutscala/akka/fsm/LoggingFSM.scala" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,20 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-795">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/allaboutscala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/akka/actors/AkkaActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -651,8 +767,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chessproblem/Solver.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="375">
           <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#22#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/akka/actors/AkkaActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/allaboutscala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/question_tags_10K.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fpinscala/parallelism/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scalatest/Stack.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Test.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cats/Functors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="62" />
         </state>
       </provider>
     </entry>
