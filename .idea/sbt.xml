@@ -8,10 +8,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/allaboutscala" />
+            <option value="$PROJECT_DIR$/cats" />
+            <option value="$PROJECT_DIR$/chessproblem" />
+            <option value="$PROJECT_DIR$/commons" />
+            <option value="$PROJECT_DIR$/fpinscala" />
             <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/scalatest" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.2.6" />
+        <option name="sbtVersion" value="1.2.8" />
       </SbtProjectSettings>
     </option>
   </component>

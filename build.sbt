@@ -4,10 +4,9 @@
   * .dependsOn signifies a direct source dependency between two modules.
   *
   */
-lazy val root = Project(id = "learn-scala", base = file("."))
+lazy val root = Project(id = "Learn-Scala", base = file("."))
   .settings(commonSettings)
   .aggregate(
-    cats
   )
 
 /**
