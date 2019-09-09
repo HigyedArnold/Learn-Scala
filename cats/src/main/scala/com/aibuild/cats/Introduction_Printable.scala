@@ -13,7 +13,7 @@ object PrintableInstances {
 
   implicit val printableInt: Printable[Int] = (value: Int) => value.toString
 
-  implicit val catPrintable: Printable[Cat] = (cat: Cat) => {
+  implicit val printableCat: Printable[Cat] = (cat: Cat) => {
     val name  = Printable.format(cat.name)
     val age   = Printable.format(cat.age)
     val color = Printable.format(cat.color)
