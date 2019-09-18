@@ -23,7 +23,8 @@ lazy val cats = project
   .settings(
     name in ThisProject := "cats",
     libraryDependencies ++= Seq(
-      catsCore   withSources ()
+      catsCore   withSources (),
+      catsEffect withSources ()
     )
   )
 
