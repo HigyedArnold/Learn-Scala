@@ -14,7 +14,7 @@ object Golfing extends App {
   val stateWithNewDistance: State[GolfState, Int] = for {
     _             <- swing(20)
     _             <- swing(15)
-    totalDistance <- swing(0)
+    totalDistance <- swing(5)
   } yield totalDistance
 
   val beginningState = GolfState(0)
