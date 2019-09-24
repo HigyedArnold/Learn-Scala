@@ -8,8 +8,8 @@ case class State[S, A](run: S => (S, A)) {
   def flatMap[B](f: A => State[S, B]): State[S, B] = State { s0 =>
     {
       val (s1, a) = run(s0)
-      val stateB = f(a)
-      val (b, s3) = stateB.run(s1)
+      val s2 = f(a)
+      val (b, s3) = s2.run(s1)
       (b, s3)
     }
   }
@@ -25,6 +25,7 @@ case class State[S, A](run: S => (S, A)) {
 }
 
 object State {
+
   def point[S, A](v: A): State[S, A] = {
     State(s => (s, v))
   }

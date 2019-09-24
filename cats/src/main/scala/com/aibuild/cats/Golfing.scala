@@ -11,6 +11,16 @@ object Golfing extends App {
     (GolfState(newAmount), newAmount)
   }
 
+//  Desugared code
+//
+//  val stateWithNewDistance: State[GolfState, Int] =
+//    swing(20)
+//      .flatMap(_ => swing(15)
+//        .flatMap(_ => swing(5)
+//          .map(totalDistance => totalDistance)
+//        )
+//      )
+
   val stateWithNewDistance: State[GolfState, Int] = for {
     _             <- swing(20)
     _             <- swing(15)
