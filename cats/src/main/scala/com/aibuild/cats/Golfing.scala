@@ -1,4 +1,5 @@
 package com.aibuild.cats
+import com.aibuild.cats.monads.State
 
 /**
   * Created by ArnoldHigyed on 18/10/2019
@@ -6,7 +7,7 @@ package com.aibuild.cats
 object Golfing extends App {
   case class GolfState(distance: Int)
 
-  def swing(distance: Int): State[GolfState, Int] = State { (s: GolfState) =>
+  def swing(distance: Int): State[GolfState, Int] = State { s: GolfState =>
     val newAmount = s.distance + distance
     (GolfState(newAmount), newAmount)
   }
