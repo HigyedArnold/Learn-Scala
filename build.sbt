@@ -24,7 +24,8 @@ lazy val cats = project
     name in ThisProject := "cats",
     libraryDependencies ++= Seq(
       catsCore   withSources (),
-      catsEffect withSources ()
+      catsEffect withSources (),
+      quickLens  withSources ()
     )
   )
 
@@ -97,6 +98,7 @@ lazy val fs2Version:          String = "1.0.3"
 lazy val sparkVersion:        String = "2.4.0"
 lazy val akkaVersion:         String = "2.5.23"
 lazy val akkaHttpVersion:     String = "10.1.8"
+lazy val quickLensVersion:    String = "1.4.12"
 //LOGGING
 lazy val scalaLoggingVersion: String = "3.8.0"
 //TESTING
@@ -123,6 +125,8 @@ lazy val akkTestKit:  ModuleID = "com.typesafe.akka" %% "akka-testkit"          
 lazy val akkaHttp:    ModuleID = "com.typesafe.akka" %% "akka-http"             % akkaHttpVersion
 lazy val akkaHSpray:  ModuleID = "com.typesafe.akka" %% "akka-http-spray-json"  % akkaHttpVersion
 lazy val akkaHTest:   ModuleID = "com.typesafe.akka" %% "akka-http-testkit"     % akkaHttpVersion
+
+lazy val quickLens:   ModuleID = "com.softwaremill.quicklens" %% "quicklens"    % quickLensVersion
 
 //LOGGING
 lazy val logging: ModuleID = "com.typesafe.scala-logging" %% "scala-logging" % scalaLoggingVersion
