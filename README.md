@@ -6,6 +6,6 @@ Learning ScalaTest from: http://www.scalatest.org/user_guide .
 
 Learning functional programming from: Manning functional programming in Scala.
 
-Learning scala categories from: Scala with Cats.
+Learning scala categories from: Scala with Cats and Functional programming simplified.
 
 Well defined .gitignore, compile flag list and .scalafmt.conf added.
