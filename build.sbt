@@ -84,6 +84,16 @@ lazy val fpinscala = project
     )
   )
 
+lazy val autoschema = project
+  .settings(commonSettings)
+  .settings(
+    name in ThisProject := "autoschema",
+    libraryDependencies ++= Seq(
+      autoSchema withSources (),
+      jsonSchema withSources ()
+    )
+  )
+
 //=============================================================================
 //=============================================================================
 //=============================== DEPENDENCIES ================================
@@ -99,6 +109,8 @@ lazy val sparkVersion:        String = "2.4.0"
 lazy val akkaVersion:         String = "2.5.23"
 lazy val akkaHttpVersion:     String = "10.1.8"
 lazy val quickLensVersion:    String = "1.4.12"
+lazy val autoSchemaVersion:   String = "1.0.4"
+lazy val jsonSchemaVersion:   String = "0.2.2"
 //LOGGING
 lazy val scalaLoggingVersion: String = "3.8.0"
 //TESTING
@@ -127,6 +139,9 @@ lazy val akkaHSpray:  ModuleID = "com.typesafe.akka" %% "akka-http-spray-json"  
 lazy val akkaHTest:   ModuleID = "com.typesafe.akka" %% "akka-http-testkit"     % akkaHttpVersion
 
 lazy val quickLens:   ModuleID = "com.softwaremill.quicklens" %% "quicklens"    % quickLensVersion
+
+lazy val autoSchema:  ModuleID = "com.sauldhernandez"  %% "autoschema"           % autoSchemaVersion
+lazy val jsonSchema:  ModuleID = "com.github.andyglow" %% "scala-jsonschema-api" % jsonSchemaVersion
 
 //LOGGING
 lazy val logging: ModuleID = "com.typesafe.scala-logging" %% "scala-logging" % scalaLoggingVersion
