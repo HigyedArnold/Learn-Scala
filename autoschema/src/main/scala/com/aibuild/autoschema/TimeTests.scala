@@ -3,6 +3,8 @@ package com.aibuild.autoschema
 import java.time.temporal.ChronoUnit
 import java.time.{LocalDate, LocalDateTime}
 
+import scala.annotation.tailrec
+
 object TimeTests extends App {
 
   /**
@@ -33,5 +35,19 @@ object TimeTests extends App {
   println(getDaysInBetween(date1, date1))
   println(getDaysInBetween(date1, date2))
   println(getDaysInBetween(date2, date1))
+
+  def lookBack(dateTime: LocalDateTime, dayCount: Int): List[LocalDateTime] =
+    lookBack(dateTime, dayCount - 1, List(dateTime))
+
+  @tailrec
+  private def lookBack(dateTime: LocalDateTime, dayCount: Int, result: List[LocalDateTime]): List[LocalDateTime] =
+    if (dayCount == 0) result
+    else {
+      val newDateTime = dateTime.minusDays(1)
+      lookBack(newDateTime, dayCount - 1, newDateTime :: result)
+    }
+
+  val dayCount = 4
+  println(lookBack(LocalDateTime.of(2019, 10, 3, 17, 24, 7), dayCount).slice(0, dayCount / 2))
 
 }
