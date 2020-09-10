@@ -1,23 +1,8 @@
-/**
-  * This project only aggregates other sub-projects, it never depends on them.
-  * .aggregate simply propagates tasks like compile, test, and whatnot downstream.
-  * .dependsOn signifies a direct source dependency between two modules.
-  *
-  */
 lazy val root = Project(id = "Learn-Scala", base = file("."))
   .settings(commonSettings)
   .aggregate(
   )
 
-/**
-  * [[project]] is a macro that by default creates a
-  * [[Project]] with id the name of the variable on the left hand side,
-  * and expects a subfolder with the same name.
-  * It's equivalent to this:
-  * {{{
-  *   Project(id = "core", base = file("core"))
-  * }}}
-  */
 lazy val cats = project
   .settings(commonSettings)
   .settings(
@@ -29,20 +14,19 @@ lazy val cats = project
     )
   )
 
-lazy val commons = project
-  .settings(commonSettings)
-  .settings(
-    name in ThisProject := "commons",
-    libraryDependencies ++= Seq(
-      catsCore   withSources (),
-      catsEffect withSources ()
-    )
-  )
-
 lazy val chessproblem = project
   .settings(commonSettings)
   .settings(
     name in ThisProject := "chessproblem",
+    libraryDependencies ++= Seq(
+
+    )
+  )
+
+lazy val fpincity = project
+  .settings(commonSettings)
+  .settings(
+    name in ThisProject := "fpincity",
     libraryDependencies ++= Seq(
 
     )
@@ -94,12 +78,6 @@ lazy val autoschema = project
     )
   )
 
-//=============================================================================
-//=============================================================================
-//=============================== DEPENDENCIES ================================
-//=============================================================================
-//=============================================================================
-//you can also make your project cross-compile
 lazy val mainScalaVersion:    String = "2.12.8"
 lazy val shapelessVersion:    String = "2.3.3"
 lazy val catsVersion:         String = "1.6.0"
@@ -111,9 +89,7 @@ lazy val akkaHttpVersion:     String = "10.1.8"
 lazy val quickLensVersion:    String = "1.4.12"
 lazy val autoSchemaVersion:   String = "1.0.4"
 lazy val jsonSchemaVersion:   String = "0.2.2"
-//LOGGING
 lazy val scalaLoggingVersion: String = "3.8.0"
-//TESTING
 lazy val scalaTestVersion:    String = "3.0.5"
 
 lazy val catsCore:    ModuleID = "org.typelevel"      %% "cats-core"            % catsVersion
@@ -143,37 +119,12 @@ lazy val quickLens:   ModuleID = "com.softwaremill.quicklens" %% "quicklens"    
 lazy val autoSchema:  ModuleID = "com.sauldhernandez"  %% "autoschema"           % autoSchemaVersion
 lazy val jsonSchema:  ModuleID = "com.github.andyglow" %% "scala-jsonschema-api" % jsonSchemaVersion
 
-//LOGGING
 lazy val logging: ModuleID = "com.typesafe.scala-logging" %% "scala-logging" % scalaLoggingVersion
 
-// TESTING
 lazy val scalaTest: ModuleID = "org.scalatest" %% "scalatest" % scalaTestVersion// % Test
 
-//COMPILER
-/*
- * Eliminates useless, unintuitive, and sometimes broken additions of `withFilter`
- * when using generator arrows in for comprehensions. e.g.
- *
- * Vanila scala:
- * {{{
- *   for {
- *      x: Int <- readIntIO
- *      //
- *   } yield ()
- *   // instead of being `readIntIO.flatMap(x: Int => ...)`, it's something like .withFilter {case x: Int}, which is tantamount to
- *   // a runtime instanceof check. Absolutely horrible, and ridiculous, and unintuitive, and contrary to the often-
- *   // parroted mantra of "a for is just sugar for flatMap and map
- * }}}
- *
- * https://github.com/oleg-py/better-monadic-for
- */
 lazy val betterMonadicForVersion = "0.3.0-M4"
 lazy val betterMonadicFor        = "com.olegpy" %% "better-monadic-for" % betterMonadicForVersion
-
-//=============================================================================
-//=============================================================================
-//=============================================================================
-//=============================================================================
 
 def commonSettings = Seq(
   organization in ThisBuild := "AIBuild",
@@ -181,12 +132,6 @@ def commonSettings = Seq(
   scalacOptions ++= customScalaCompileFlagList ++ betterForPluginCompilerFlags,
   addCompilerPlugin(dependency = betterMonadicFor),
 )
-
-//=============================================================================
-//=============================================================================
-//============================== COMPILER FLAGS ===============================
-//=============================================================================
-//=============================================================================
 
 def allCompilerFlags: Seq[String] = customScalaCompileFlagList ++ betterForPluginCompilerFlags
 
