@@ -1,4 +1,4 @@
-package com.aibuild.fpincity
+package com.aibuild.fpincity.adt
 
 sealed trait Direction
 

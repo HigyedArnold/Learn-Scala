@@ -1,6 +1,6 @@
-package com.aibuild.fpincity
+package com.aibuild.fpincity.adt
 
-import com.aibuild.fpincity.DSL._
+import com.aibuild.fpincity.adt.DSL._
 
 object Main extends App {
   println(move(east) ~> move(west))

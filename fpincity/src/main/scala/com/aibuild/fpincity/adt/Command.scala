@@ -1,4 +1,4 @@
-package com.aibuild.fpincity
+package com.aibuild.fpincity.adt
 
 final abstract class Idle
 final abstract class Moving
